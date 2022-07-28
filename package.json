@@ -37,7 +37,8 @@
   "dependencies": {
     "@stdlib/string-base-format-interpolate": "^0.0.x",
     "@stdlib/string-base-format-tokenize": "^0.0.x",
-    "@stdlib/utils-define-read-only-property": "^0.0.x"
+    "@stdlib/utils-define-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.0.x",
