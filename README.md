@@ -65,8 +65,13 @@ The namespace has the following sub-namespaces:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`capitalize( str )`][@stdlib/string/base/capitalize]</span><span class="delimiter">: </span><span class="description">capitalize the first character in a string.</span>
+-   <span class="signature">[`endsWith( str, search, len )`][@stdlib/string/base/ends-with]</span><span class="delimiter">: </span><span class="description">test if a string ends with the characters of another string.</span>
 -   <span class="signature">[`formatInterpolate( tokens, ...args )`][@stdlib/string/base/format-interpolate]</span><span class="delimiter">: </span><span class="description">generate string from a token array by interpolating values.</span>
 -   <span class="signature">[`formatTokenize( str )`][@stdlib/string/base/format-tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string into an array of string parts and format identifier objects.</span>
+-   <span class="signature">[`ltrim( str )`][@stdlib/string/base/left-trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the beginning of a string.</span>
+-   <span class="signature">[`replace( str, search, newval )`][@stdlib/string/base/replace]</span><span class="delimiter">: </span><span class="description">replace search occurrences with a replacement string.</span>
+-   <span class="signature">[`trim( str )`][@stdlib/string/base/trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the beginning and end of a string.</span>
 
 </div>
 
@@ -182,9 +187,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
+
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
+
 [@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate
 
 [@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
+
+[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim
+
+[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
+
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
 
 <!-- </toc-links> -->
 
