@@ -35,12 +35,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/string-base-camelcase": "^0.0.x",
     "@stdlib/string-base-capitalize": "^0.0.x",
+    "@stdlib/string-base-constantcase": "^0.0.x",
     "@stdlib/string-base-ends-with": "^0.0.x",
     "@stdlib/string-base-format-interpolate": "^0.0.x",
     "@stdlib/string-base-format-tokenize": "^0.0.x",
+    "@stdlib/string-base-kebabcase": "^0.0.x",
     "@stdlib/string-base-left-trim": "^0.0.x",
     "@stdlib/string-base-lowercase": "^0.0.x",
+    "@stdlib/string-base-pascalcase": "^0.0.x",
     "@stdlib/string-base-percent-encode": "^0.0.x",
     "@stdlib/string-base-replace": "^0.0.x",
     "@stdlib/string-base-right-trim": "^0.0.x",
