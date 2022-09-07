@@ -50,6 +50,7 @@
     "@stdlib/string-base-right-trim": "^0.0.x",
     "@stdlib/string-base-snakecase": "^0.0.x",
     "@stdlib/string-base-startcase": "^0.0.x",
+    "@stdlib/string-base-starts-with": "^0.0.x",
     "@stdlib/string-base-trim": "^0.0.x",
     "@stdlib/string-base-uncapitalize": "^0.0.x",
     "@stdlib/string-base-uppercase": "^0.0.x",
