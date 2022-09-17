@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Base (i.e., lower-level) string functions.",
   "license": "Apache-2.0",
   "author": {
