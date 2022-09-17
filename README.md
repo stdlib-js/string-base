@@ -24,20 +24,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) string functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { formatInterpolate, formatTokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+var string = require( '@stdlib/string-base' );
 ```
 
 #### string
@@ -55,8 +65,28 @@ The namespace has the following sub-namespaces:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`camelcase( str )`][@stdlib/string/base/camelcase]</span><span class="delimiter">: </span><span class="description">convert a string to camel case.</span>
+-   <span class="signature">[`capitalize( str )`][@stdlib/string/base/capitalize]</span><span class="delimiter">: </span><span class="description">capitalize the first character in a string.</span>
+-   <span class="signature">[`codePointAt( string, position, backward )`][@stdlib/string/base/code-point-at]</span><span class="delimiter">: </span><span class="description">return a Unicode code point from a string at a specified position.</span>
+-   <span class="signature">[`constantcase( str )`][@stdlib/string/base/constantcase]</span><span class="delimiter">: </span><span class="description">convert a string to constant case.</span>
+-   <span class="signature">[`endsWith( str, search, len )`][@stdlib/string/base/ends-with]</span><span class="delimiter">: </span><span class="description">test if a string ends with the characters of another string.</span>
 -   <span class="signature">[`formatInterpolate( tokens, ...args )`][@stdlib/string/base/format-interpolate]</span><span class="delimiter">: </span><span class="description">generate string from a token array by interpolating values.</span>
 -   <span class="signature">[`formatTokenize( str )`][@stdlib/string/base/format-tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string into an array of string parts and format identifier objects.</span>
+-   <span class="signature">[`kebabcase( str )`][@stdlib/string/base/kebabcase]</span><span class="delimiter">: </span><span class="description">convert a string to kebab case.</span>
+-   <span class="signature">[`lpad( str, len, pad )`][@stdlib/string/base/left-pad]</span><span class="delimiter">: </span><span class="description">left pad a string.</span>
+-   <span class="signature">[`ltrim( str )`][@stdlib/string/base/left-trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the beginning of a string.</span>
+-   <span class="signature">[`lowercase( str )`][@stdlib/string/base/lowercase]</span><span class="delimiter">: </span><span class="description">convert a string to lowercase.</span>
+-   <span class="signature">[`pascalcase( str )`][@stdlib/string/base/pascalcase]</span><span class="delimiter">: </span><span class="description">convert a string to Pascal case.</span>
+-   <span class="signature">[`percentEncode( str )`][@stdlib/string/base/percent-encode]</span><span class="delimiter">: </span><span class="description">percent-encode a UTF-16 encoded string according to RFC 3986.</span>
+-   <span class="signature">[`repeat( str, n )`][@stdlib/string/base/repeat]</span><span class="delimiter">: </span><span class="description">repeat a string a specified number of times and return the concatenated result.</span>
+-   <span class="signature">[`replace( str, search, newval )`][@stdlib/string/base/replace]</span><span class="delimiter">: </span><span class="description">replace search occurrences with a replacement string.</span>
+-   <span class="signature">[`rtrim( str )`][@stdlib/string/base/right-trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the end of a string.</span>
+-   <span class="signature">[`snakecase( str )`][@stdlib/string/base/snakecase]</span><span class="delimiter">: </span><span class="description">convert a string to snake case.</span>
+-   <span class="signature">[`startcase( str )`][@stdlib/string/base/startcase]</span><span class="delimiter">: </span><span class="description">capitalize the first letter of each word in a string.</span>
+-   <span class="signature">[`startsWith( str, search, position )`][@stdlib/string/base/starts-with]</span><span class="delimiter">: </span><span class="description">test if a string starts with the characters of another string.</span>
+-   <span class="signature">[`trim( str )`][@stdlib/string/base/trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the beginning and end of a string.</span>
+-   <span class="signature">[`uncapitalize( str )`][@stdlib/string/base/uncapitalize]</span><span class="delimiter">: </span><span class="description">uncapitalize the first character of a string.</span>
+-   <span class="signature">[`uppercase( str )`][@stdlib/string/base/uppercase]</span><span class="delimiter">: </span><span class="description">convert a string to uppercase.</span>
 
 </div>
 
@@ -83,8 +113,8 @@ The namespace has the following sub-namespaces:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/string-base' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -110,7 +140,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -140,8 +170,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base
 
-[test-image]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml/badge.svg?branch=v0.0.3
+[test-url]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml?query=branch:v0.0.3
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base?branch=main
@@ -172,9 +202,49 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate/tree/deno
+[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase
 
-[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize/tree/deno
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
+
+[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at
+
+[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase
+
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
+
+[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate
+
+[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
+
+[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase
+
+[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad
+
+[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim
+
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
+
+[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase
+
+[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode
+
+[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
+
+[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
+
+[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim
+
+[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase
+
+[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase
+
+[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with
+
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
+
+[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize
+
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
 
 <!-- </toc-links> -->
 
