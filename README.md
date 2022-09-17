@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.3-deno/mod.js';
 ```
 
 #### string
@@ -104,7 +104,7 @@ The namespace has the following sub-namespaces:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.3-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
