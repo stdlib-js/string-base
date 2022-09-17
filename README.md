@@ -31,13 +31,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base/tags). For example,
+
+```javascript
 import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.3-esm/index.mjs';
+import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
 ```
 
 #### string
@@ -109,7 +114,7 @@ The namespace has the following sub-namespaces:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.3-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
