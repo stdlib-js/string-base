@@ -24,38 +24,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) string functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-string = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var string = require( 'path/to/vendor/umd/string-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.string;
-})();
-</script>
+var string = require( '@stdlib/string-base' );
 ```
 
 #### string
@@ -120,21 +112,35 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ns = require( '@stdlib/string-base' );
 
-console.log( objectKeys( ns ) );
+// Generate a Pascal case string...
+var str = ns.pascalcase( 'beep boop' );
+// returns 'BeepBoop'
 
-})();
-</script>
-</body>
-</html>
+// Tokenize a string into an array of string parts and format identifier objects...
+str = 'The %d %s foxes jumped over the %d %s dogs.';
+var tokens = ns.formatTokenize( str );
+// returns [ 'The ', {...}, ' ', {...}, ' foxes jumped over the ', {...}, ' ', {...}, ' dogs.' ]
+
+// Generate a string from a token array by interpolating values...
+str = ns.formatInterpolate( tokens, 3, 'quick', 4, 'lazy' );
+// returns 'The 3 quick foxes jumped over the 4 lazy dogs.'
+
+// Test whether a string starts with the characters of another string...
+str = 'Lorem ipsum dolor sit amet';
+var bool = ns.startsWith( str, 'Lorem' );
+// returns true
+
+// Test whether a string ends with the characters of another string...
+bool = ns.endsWith( str, 'amet' );
+// returns true
+
+// Trim whitespace characters from the beginning and end of a string...
+str = '   \t\n Lorem ipsum dolor sit amet   \n\t  ';
+str = ns.trim( str );
+// returns 'Lorem ipsum dolor sit amet'
 ```
 
 </section>
@@ -220,49 +226,49 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase/tree/umd
+[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase
 
-[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize/tree/umd
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
 
-[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at/tree/umd
+[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at
 
-[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase/tree/umd
+[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase
 
-[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with/tree/umd
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
 
-[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate/tree/umd
+[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate
 
-[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize/tree/umd
+[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
 
-[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase/tree/umd
+[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase
 
-[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad/tree/umd
+[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad
 
-[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim/tree/umd
+[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim
 
-[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase/tree/umd
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
 
-[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase/tree/umd
+[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase
 
-[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode/tree/umd
+[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode
 
-[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat/tree/umd
+[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
 
-[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace/tree/umd
+[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
 
-[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim/tree/umd
+[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim
 
-[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase/tree/umd
+[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase
 
-[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase/tree/umd
+[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase
 
-[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with/tree/umd
+[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with
 
-[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim/tree/umd
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
 
-[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize/tree/umd
+[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize
 
-[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase/tree/umd
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
 
 <!-- </toc-links> -->
 
