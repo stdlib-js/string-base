@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@vnull-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, replaceBefore, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, replaceBefore, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@vnull-esm/index.mjs';
 ```
 
 #### string
@@ -108,7 +108,7 @@ The namespace contains the following functions:
 <body>
 <script type="module">
 
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@vnull-esm/index.mjs';
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
