@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base",
-  "version": null,
+  "version": "0.0.0",
   "description": "Base (i.e., lower-level) string functions.",
   "license": "Apache-2.0",
   "author": {
@@ -51,7 +51,7 @@
     "@stdlib/string-base-percent-encode": "^0.0.2",
     "@stdlib/string-base-repeat": "^0.0.2",
     "@stdlib/string-base-replace": "^0.0.2",
-    "@stdlib/string-base-replace-before": "^github:stdlib-js/string-base-replace-before#main",
+    "@stdlib/string-base-replace-before": "github:stdlib-js/string-base-replace-before#main",
     "@stdlib/string-base-right-trim": "^0.0.2",
     "@stdlib/string-base-snakecase": "^0.0.2",
     "@stdlib/string-base-startcase": "^0.0.2",

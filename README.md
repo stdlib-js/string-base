@@ -79,6 +79,7 @@ The namespace contains the following functions:
 -   <span class="signature">[`pascalcase( str )`][@stdlib/string/base/pascalcase]</span><span class="delimiter">: </span><span class="description">convert a string to Pascal case.</span>
 -   <span class="signature">[`percentEncode( str )`][@stdlib/string/base/percent-encode]</span><span class="delimiter">: </span><span class="description">percent-encode a UTF-16 encoded string according to RFC 3986.</span>
 -   <span class="signature">[`repeat( str, n )`][@stdlib/string/base/repeat]</span><span class="delimiter">: </span><span class="description">repeat a string a specified number of times and return the concatenated result.</span>
+-   <span class="signature">[`replaceBefore( str, search, replacement )`][@stdlib/string/base/replace-before]</span><span class="delimiter">: </span><span class="description">replace the substring before the first occurrence of a specified search string.</span>
 -   <span class="signature">[`replace( str, search, newval )`][@stdlib/string/base/replace]</span><span class="delimiter">: </span><span class="description">replace search occurrences with a replacement string.</span>
 -   <span class="signature">[`rtrim( str )`][@stdlib/string/base/right-trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the end of a string.</span>
 -   <span class="signature">[`snakecase( str )`][@stdlib/string/base/snakecase]</span><span class="delimiter">: </span><span class="description">convert a string to snake case.</span>
@@ -194,8 +195,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base
 
-[test-image]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml/badge.svg?branch=vnull
-[test-url]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml?query=branch:vnull
+[test-image]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/string-base/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base?branch=main
@@ -253,6 +254,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode
 
 [@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
+
+[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
 
 [@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
 
