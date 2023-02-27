@@ -31,13 +31,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base/tags). For example,
+
+```javascript
 import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, replaceBefore, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.0-deno/mod.js';
+import { camelcase, capitalize, codePointAt, constantcase, endsWith, formatInterpolate, formatTokenize, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, replaceBefore, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
 ```
 
 #### string
@@ -104,7 +109,7 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.0.0-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
