@@ -43,6 +43,7 @@
     "@stdlib/string-base-ends-with": "^0.0.2",
     "@stdlib/string-base-format-interpolate": "^0.0.4",
     "@stdlib/string-base-format-tokenize": "^0.0.4",
+    "@stdlib/string-base-invcase": "github:stdlib-js/string-base-invcase#main",
     "@stdlib/string-base-kebabcase": "^0.0.2",
     "@stdlib/string-base-left-pad": "^0.0.2",
     "@stdlib/string-base-left-trim": "^0.0.2",
