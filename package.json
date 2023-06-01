@@ -39,7 +39,7 @@
     "@stdlib/string-base-camelcase": "^0.0.2",
     "@stdlib/string-base-capitalize": "^0.0.2",
     "@stdlib/string-base-code-point-at": "^0.0.2",
-    "@stdlib/string-base-constantcase": "^0.0.2",
+    "@stdlib/string-base-constantcase": "^0.0.3",
     "@stdlib/string-base-ends-with": "^0.0.2",
     "@stdlib/string-base-format-interpolate": "^0.0.4",
     "@stdlib/string-base-format-tokenize": "^0.0.4",
