@@ -87,7 +87,7 @@
     "@stdlib/regexp-utf16-surrogate-pair": "^0.0.7",
     "@stdlib/regexp-whitespace": "^0.0.7",
     "@stdlib/string-base-distances-levenshtein": "github:stdlib-js/string-base-distances-levenshtein#main",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/string-from-code-point": "^0.0.9",
     "@stdlib/string-next-grapheme-cluster-break": "^0.0.9",
     "@stdlib/string-utf16-to-utf8-array": "^0.0.8",
