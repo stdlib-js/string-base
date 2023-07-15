@@ -46,6 +46,8 @@
     "@stdlib/string-base-first": "github:stdlib-js/string-base-first#main",
     "@stdlib/string-base-first-code-point": "github:stdlib-js/string-base-first-code-point#main",
     "@stdlib/string-base-first-grapheme-cluster": "github:stdlib-js/string-base-first-grapheme-cluster#main",
+    "@stdlib/string-base-for-each": "github:stdlib-js/string-base-for-each#main",
+    "@stdlib/string-base-for-each-code-point": "github:stdlib-js/string-base-for-each-code-point#main",
     "@stdlib/string-base-for-each-grapheme-cluster": "github:stdlib-js/string-base-for-each-grapheme-cluster#main",
     "@stdlib/string-base-format-interpolate": "^0.0.4",
     "@stdlib/string-base-format-tokenize": "^0.0.4",
