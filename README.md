@@ -24,20 +24,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) string functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachGraphemeCluster, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, repeat, replace, replaceBefore, rpad, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+var string = require( '@stdlib/string-base' );
 ```
 
 #### string
@@ -59,8 +69,15 @@ The namespace contains the following functions:
 -   <span class="signature">[`capitalize( str )`][@stdlib/string/base/capitalize]</span><span class="delimiter">: </span><span class="description">capitalize the first character in a string.</span>
 -   <span class="signature">[`codePointAt( string, position, backward )`][@stdlib/string/base/code-point-at]</span><span class="delimiter">: </span><span class="description">return a Unicode code point from a string at a specified position.</span>
 -   <span class="signature">[`constantcase( str )`][@stdlib/string/base/constantcase]</span><span class="delimiter">: </span><span class="description">convert a string to constant case.</span>
+-   <span class="signature">[`distances`][@stdlib/string/base/distances]</span><span class="delimiter">: </span><span class="description">implementations of various string similarity metrics.</span>
 -   <span class="signature">[`dotcase( str )`][@stdlib/string/base/dotcase]</span><span class="delimiter">: </span><span class="description">convert a string to dot case.</span>
 -   <span class="signature">[`endsWith( str, search, len )`][@stdlib/string/base/ends-with]</span><span class="delimiter">: </span><span class="description">test if a string ends with the characters of another string.</span>
+-   <span class="signature">[`firstCodePoint( str, n )`][@stdlib/string/base/first-code-point]</span><span class="delimiter">: </span><span class="description">return the first `n` Unicode code points of a string.</span>
+-   <span class="signature">[`firstGraphemeCluster( str, n )`][@stdlib/string/base/first-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">return the first `n` grapheme clusters (i.e., user-perceived characters) of a string.</span>
+-   <span class="signature">[`first( str, n )`][@stdlib/string/base/first]</span><span class="delimiter">: </span><span class="description">return the first `n` UTF-16 code units of a string.</span>
+-   <span class="signature">[`forEachCodePoint( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each-code-point]</span><span class="delimiter">: </span><span class="description">invokes a function for each Unicode code point in a string.</span>
+-   <span class="signature">[`forEachGraphemeCluster( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">invokes a function for each grapheme cluster (i.e., user-perceived character) in a string.</span>
+-   <span class="signature">[`forEach( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each]</span><span class="delimiter">: </span><span class="description">invokes a function for each UTF-16 code unit in a string.</span>
 -   <span class="signature">[`formatInterpolate( tokens, ...args )`][@stdlib/string/base/format-interpolate]</span><span class="delimiter">: </span><span class="description">generate string from a token array by interpolating values.</span>
 -   <span class="signature">[`formatTokenize( str )`][@stdlib/string/base/format-tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string into an array of string parts and format identifier objects.</span>
 -   <span class="signature">[`headercase( str )`][@stdlib/string/base/headercase]</span><span class="delimiter">: </span><span class="description">convert a string to Header case.</span>
@@ -107,13 +124,8 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+```javascript
+var ns = require( '@stdlib/string-base' );
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
@@ -141,10 +153,6 @@ bool = ns.endsWith( str, 'amet' );
 str = '   \t\n Lorem ipsum dolor sit amet   \n\t  ';
 str = ns.trim( str );
 // returns 'Lorem ipsum dolor sit amet'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -168,7 +176,7 @@ str = ns.trim( str );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -230,59 +238,73 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase/tree/esm
+[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase
 
-[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize/tree/esm
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
 
-[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at/tree/esm
+[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at
 
-[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase/tree/esm
+[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase
 
-[@stdlib/string/base/dotcase]: https://github.com/stdlib-js/string-base-dotcase/tree/esm
+[@stdlib/string/base/distances]: https://github.com/stdlib-js/string-base-distances
 
-[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with/tree/esm
+[@stdlib/string/base/dotcase]: https://github.com/stdlib-js/string-base-dotcase
 
-[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate/tree/esm
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
 
-[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize/tree/esm
+[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point
 
-[@stdlib/string/base/headercase]: https://github.com/stdlib-js/string-base-headercase/tree/esm
+[@stdlib/string/base/first-grapheme-cluster]: https://github.com/stdlib-js/string-base-first-grapheme-cluster
 
-[@stdlib/string/base/invcase]: https://github.com/stdlib-js/string-base-invcase/tree/esm
+[@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first
 
-[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase/tree/esm
+[@stdlib/string/base/for-each-code-point]: https://github.com/stdlib-js/string-base-for-each-code-point
 
-[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad/tree/esm
+[@stdlib/string/base/for-each-grapheme-cluster]: https://github.com/stdlib-js/string-base-for-each-grapheme-cluster
 
-[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim/tree/esm
+[@stdlib/string/base/for-each]: https://github.com/stdlib-js/string-base-for-each
 
-[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase/tree/esm
+[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate
 
-[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase/tree/esm
+[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
 
-[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode/tree/esm
+[@stdlib/string/base/headercase]: https://github.com/stdlib-js/string-base-headercase
 
-[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat/tree/esm
+[@stdlib/string/base/invcase]: https://github.com/stdlib-js/string-base-invcase
 
-[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before/tree/esm
+[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase
 
-[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace/tree/esm
+[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad
 
-[@stdlib/string/base/right-pad]: https://github.com/stdlib-js/string-base-right-pad/tree/esm
+[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim
 
-[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim/tree/esm
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
 
-[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase/tree/esm
+[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase
 
-[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase/tree/esm
+[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode
 
-[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with/tree/esm
+[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
 
-[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim/tree/esm
+[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
 
-[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize/tree/esm
+[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
 
-[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase/tree/esm
+[@stdlib/string/base/right-pad]: https://github.com/stdlib-js/string-base-right-pad
+
+[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim
+
+[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase
+
+[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase
+
+[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with
+
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
+
+[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize
+
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
 
 <!-- </toc-links> -->
 
