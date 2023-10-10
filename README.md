@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base/tags). For example,
+
+```javascript
 import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.1.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachGraphemeCluster, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, repeat, replace, replaceBefore, rpad, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.1.2-esm/index.mjs';
+import { camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachGraphemeCluster, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, repeat, replace, replaceBefore, rpad, rtrim, snakecase, startcase, startsWith, trim, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
 ```
 
 #### string
@@ -134,7 +139,7 @@ The namespace contains the following functions:
 <body>
 <script type="module">
 
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.1.2-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@esm/index.mjs';
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
