@@ -54,7 +54,7 @@
     "@stdlib/string-base-headercase": "^0.1.1",
     "@stdlib/string-base-invcase": "^0.1.1",
     "@stdlib/string-base-kebabcase": "^0.1.1",
-    "@stdlib/string-base-left-pad": "^0.1.0",
+    "@stdlib/string-base-left-pad": "^0.1.1",
     "@stdlib/string-base-left-trim": "^0.1.1",
     "@stdlib/string-base-lowercase": "^0.2.1",
     "@stdlib/string-base-pascalcase": "^0.1.1",
