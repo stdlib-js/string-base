@@ -10,7 +10,7 @@
 
 <details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase">@stdlib/string/base</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base">@stdlib/string/base</a></summary>
 
 #### Features
 
@@ -19,7 +19,7 @@
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Faltcase">@stdlib/string/base/altcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/altcase">@stdlib/string/base/altcase</a></summary>
 
 #### Features
 
@@ -33,7 +33,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fdistances">@stdlib/string/base/distances</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances">@stdlib/string/base/distances</a></summary>
 
 #### Features
 
@@ -42,7 +42,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fdistances%2Fhamming">@stdlib/string/base/distances/hamming</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances/hamming">@stdlib/string/base/distances/hamming</a></summary>
 
 #### Features
 
@@ -50,7 +50,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Freverse">@stdlib/string/base/reverse</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse">@stdlib/string/base/reverse</a></summary>
 
 #### Features
 
@@ -58,7 +58,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Freverse-code-points">@stdlib/string/base/reverse-code-points</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse-code-points">@stdlib/string/base/reverse-code-points</a></summary>
 
 #### Features
 
@@ -66,7 +66,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Freverse-grapheme-clusters">@stdlib/string/base/reverse-grapheme-clusters</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse-grapheme-clusters">@stdlib/string/base/reverse-grapheme-clusters</a></summary>
 
 #### Features
 
@@ -74,7 +74,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ftruncate-middle">@stdlib/string/base/truncate-middle</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/truncate-middle">@stdlib/string/base/truncate-middle</a></summary>
 
 #### Features
 
@@ -124,7 +124,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase">@stdlib/string/base</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base">@stdlib/string/base</a></summary>
 
 #### Features
 
@@ -149,7 +149,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fcamelcase">@stdlib/string/base/camelcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/camelcase">@stdlib/string/base/camelcase</a></summary>
 
 #### Features
 
@@ -161,7 +161,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fcapitalize">@stdlib/string/base/capitalize</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/capitalize">@stdlib/string/base/capitalize</a></summary>
 
 #### Features
 
@@ -173,7 +173,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fcode-point-at">@stdlib/string/base/code-point-at</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/code-point-at">@stdlib/string/base/code-point-at</a></summary>
 
 #### Features
 
@@ -189,7 +189,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fconstantcase">@stdlib/string/base/constantcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/constantcase">@stdlib/string/base/constantcase</a></summary>
 
 #### Features
 
@@ -205,7 +205,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fdistances">@stdlib/string/base/distances</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances">@stdlib/string/base/distances</a></summary>
 
 #### Features
 
@@ -226,7 +226,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fdistances%2Flevenshtein">@stdlib/string/base/distances/levenshtein</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances/levenshtein">@stdlib/string/base/distances/levenshtein</a></summary>
 
 #### Features
 
@@ -245,7 +245,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fdotcase">@stdlib/string/base/dotcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/dotcase">@stdlib/string/base/dotcase</a></summary>
 
 #### Features
 
@@ -257,7 +257,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fends-with">@stdlib/string/base/ends-with</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/ends-with">@stdlib/string/base/ends-with</a></summary>
 
 #### Features
 
@@ -269,7 +269,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ffirst">@stdlib/string/base/first</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first">@stdlib/string/base/first</a></summary>
 
 #### Features
 
@@ -282,7 +282,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ffirst-code-point">@stdlib/string/base/first-code-point</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first-code-point">@stdlib/string/base/first-code-point</a></summary>
 
 #### Features
 
@@ -295,7 +295,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ffirst-grapheme-cluster">@stdlib/string/base/first-grapheme-cluster</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first-grapheme-cluster">@stdlib/string/base/first-grapheme-cluster</a></summary>
 
 #### Features
 
@@ -308,7 +308,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ffor-each">@stdlib/string/base/for-each</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each">@stdlib/string/base/for-each</a></summary>
 
 #### Features
 
@@ -321,7 +321,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ffor-each-code-point">@stdlib/string/base/for-each-code-point</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each-code-point">@stdlib/string/base/for-each-code-point</a></summary>
 
 #### Features
 
@@ -334,7 +334,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ffor-each-grapheme-cluster">@stdlib/string/base/for-each-grapheme-cluster</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each-grapheme-cluster">@stdlib/string/base/for-each-grapheme-cluster</a></summary>
 
 #### Features
 
@@ -347,7 +347,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fformat-interpolate">@stdlib/string/base/format-interpolate</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/format-interpolate">@stdlib/string/base/format-interpolate</a></summary>
 
 #### Features
 
@@ -359,7 +359,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fformat-tokenize">@stdlib/string/base/format-tokenize</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/format-tokenize">@stdlib/string/base/format-tokenize</a></summary>
 
 #### Features
 
@@ -371,7 +371,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fheadercase">@stdlib/string/base/headercase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/headercase">@stdlib/string/base/headercase</a></summary>
 
 #### Features
 
@@ -390,7 +390,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Finvcase">@stdlib/string/base/invcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/invcase">@stdlib/string/base/invcase</a></summary>
 
 #### Features
 
@@ -409,7 +409,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fkebabcase">@stdlib/string/base/kebabcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/kebabcase">@stdlib/string/base/kebabcase</a></summary>
 
 #### Features
 
@@ -421,7 +421,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fleft-pad">@stdlib/string/base/left-pad</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/left-pad">@stdlib/string/base/left-pad</a></summary>
 
 #### Features
 
@@ -433,7 +433,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fleft-trim">@stdlib/string/base/left-trim</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/left-trim">@stdlib/string/base/left-trim</a></summary>
 
 #### Features
 
@@ -445,7 +445,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Flowercase">@stdlib/string/base/lowercase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/lowercase">@stdlib/string/base/lowercase</a></summary>
 
 #### Features
 
@@ -457,7 +457,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fpascalcase">@stdlib/string/base/pascalcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/pascalcase">@stdlib/string/base/pascalcase</a></summary>
 
 #### Features
 
@@ -469,7 +469,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fpercent-encode">@stdlib/string/base/percent-encode</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/percent-encode">@stdlib/string/base/percent-encode</a></summary>
 
 #### Features
 
@@ -481,7 +481,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fremove-first">@stdlib/string/base/remove-first</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first">@stdlib/string/base/remove-first</a></summary>
 
 #### Features
 
@@ -495,7 +495,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fremove-first-code-point">@stdlib/string/base/remove-first-code-point</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first-code-point">@stdlib/string/base/remove-first-code-point</a></summary>
 
 #### Features
 
@@ -509,7 +509,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fremove-first-grapheme-cluster">@stdlib/string/base/remove-first-grapheme-cluster</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first-grapheme-cluster">@stdlib/string/base/remove-first-grapheme-cluster</a></summary>
 
 #### Features
 
@@ -523,7 +523,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fremove-last">@stdlib/string/base/remove-last</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last">@stdlib/string/base/remove-last</a></summary>
 
 #### Features
 
@@ -531,7 +531,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fremove-last-code-point">@stdlib/string/base/remove-last-code-point</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last-code-point">@stdlib/string/base/remove-last-code-point</a></summary>
 
 #### Features
 
@@ -539,7 +539,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fremove-last-grapheme-cluster">@stdlib/string/base/remove-last-grapheme-cluster</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last-grapheme-cluster">@stdlib/string/base/remove-last-grapheme-cluster</a></summary>
 
 #### Features
 
@@ -547,7 +547,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Frepeat">@stdlib/string/base/repeat</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/repeat">@stdlib/string/base/repeat</a></summary>
 
 #### Features
 
@@ -559,7 +559,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Freplace">@stdlib/string/base/replace</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/replace">@stdlib/string/base/replace</a></summary>
 
 #### Features
 
@@ -571,7 +571,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Freplace-before">@stdlib/string/base/replace-before</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/replace-before">@stdlib/string/base/replace-before</a></summary>
 
 #### Features
 
@@ -597,7 +597,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fright-pad">@stdlib/string/base/right-pad</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/right-pad">@stdlib/string/base/right-pad</a></summary>
 
 #### Features
 
@@ -610,7 +610,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fright-trim">@stdlib/string/base/right-trim</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/right-trim">@stdlib/string/base/right-trim</a></summary>
 
 #### Features
 
@@ -626,7 +626,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fsnakecase">@stdlib/string/base/snakecase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/snakecase">@stdlib/string/base/snakecase</a></summary>
 
 #### Features
 
@@ -638,7 +638,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fstartcase">@stdlib/string/base/startcase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/startcase">@stdlib/string/base/startcase</a></summary>
 
 #### Features
 
@@ -654,7 +654,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fstarts-with">@stdlib/string/base/starts-with</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/starts-with">@stdlib/string/base/starts-with</a></summary>
 
 #### Features
 
@@ -666,7 +666,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Ftrim">@stdlib/string/base/trim</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/trim">@stdlib/string/base/trim</a></summary>
 
 #### Features
 
@@ -678,7 +678,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Funcapitalize">@stdlib/string/base/uncapitalize</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/uncapitalize">@stdlib/string/base/uncapitalize</a></summary>
 
 #### Features
 
@@ -690,7 +690,7 @@ This release closes the following issue:
 
 </details><details>
 
-<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib%2Fstring%2Fbase%2Fuppercase">@stdlib/string/base/uppercase</a></summary>
+<summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/uppercase">@stdlib/string/base/uppercase</a></summary>
 
 #### Features
 
