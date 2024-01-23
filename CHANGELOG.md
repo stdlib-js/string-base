@@ -4,20 +4,20 @@
 
 ## Unreleased
 
-### General
+### Packages
 
 <details>
+
+<summary>namespace</summary>
 
 #### Features
 
 -   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
 -   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
 
-</details>
+</details><details>
 
-### altcase
-
-<details>
+<summary>altcase</summary>
 
 #### Features
 
@@ -29,62 +29,50 @@ This release closes the following issue:
 
 [#850](https://github.com/stdlib-js/stdlib/issues/850)
 
-</details>
+</details><details>
 
-### distances
-
-<details>
+<summary>distances</summary>
 
 #### Features
 
 -   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
 -   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
 
-</details>
+</details><details>
 
-### distances/hamming
-
-<details>
+<summary>distances/hamming</summary>
 
 #### Features
 
 -   [`165ab63`](https://github.com/stdlib-js/stdlib/commit/165ab63d2f841d54753be8572f7db06be878dfbb) - add `string/base/distances/hamming` (#1166) [(#1166)](https://github.com/stdlib-js/stdlib/pull/1166)
 
-</details>
+</details><details>
 
-### reverse
-
-<details>
+<summary>reverse</summary>
 
 #### Features
 
 -   [`de17736`](https://github.com/stdlib-js/stdlib/commit/de1773601713083ef826105a70df23c8750f9559) - refactor `string/reverse` and add `mode` option [(#1082)](https://github.com/stdlib-js/stdlib/pull/1082)
 
-</details>
+</details><details>
 
-### reverse-code-points
-
-<details>
+<summary>reverse-code-points</summary>
 
 #### Features
 
 -   [`de17736`](https://github.com/stdlib-js/stdlib/commit/de1773601713083ef826105a70df23c8750f9559) - refactor `string/reverse` and add `mode` option [(#1082)](https://github.com/stdlib-js/stdlib/pull/1082)
 
-</details>
+</details><details>
 
-### reverse-grapheme-clusters
-
-<details>
+<summary>reverse-grapheme-clusters</summary>
 
 #### Features
 
 -   [`de17736`](https://github.com/stdlib-js/stdlib/commit/de1773601713083ef826105a70df23c8750f9559) - refactor `string/reverse` and add `mode` option [(#1082)](https://github.com/stdlib-js/stdlib/pull/1082)
 
-</details>
+</details><details>
 
-### truncate-middle
-
-<details>
+<summary>truncate-middle</summary>
 
 #### Features
 
@@ -127,9 +115,11 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 ## 0.1.2 (2023-10-10)
 
-### General
+### Packages
 
 <details>
+
+<summary>Namespace</summary>
 
 #### Features
 
@@ -152,11 +142,9 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### camelcase
-
-<details>
+<summary>camelcase</summary>
 
 #### Features
 
@@ -166,11 +154,9 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### capitalize
-
-<details>
+<summary>capitalize</summary>
 
 #### Features
 
@@ -180,11 +166,9 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### code-point-at
-
-<details>
+<summary>code-point-at</summary>
 
 #### Features
 
@@ -198,11 +182,9 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### constantcase
-
-<details>
+<summary>constantcase</summary>
 
 #### Features
 
@@ -216,11 +198,9 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### distances
-
-<details>
+<summary>distances</summary>
 
 #### Features
 
@@ -239,11 +219,9 @@ This release closes the following issue:
 
 [#835 ](undefined)
 
-</details>
+</details><details>
 
-### distances/levenshtein
-
-<details>
+<summary>distances/levenshtein</summary>
 
 #### Features
 
@@ -260,11 +238,9 @@ This release closes the following issue:
 
 [#835 ](undefined)
 
-</details>
+</details><details>
 
-### dotcase
-
-<details>
+<summary>dotcase</summary>
 
 #### Features
 
@@ -274,11 +250,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### ends-with
-
-<details>
+<summary>ends-with</summary>
 
 #### Features
 
@@ -288,11 +262,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### first
-
-<details>
+<summary>first</summary>
 
 #### Features
 
@@ -303,11 +275,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### first-code-point
-
-<details>
+<summary>first-code-point</summary>
 
 #### Features
 
@@ -318,11 +288,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### first-grapheme-cluster
-
-<details>
+<summary>first-grapheme-cluster</summary>
 
 #### Features
 
@@ -333,11 +301,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### for-each
-
-<details>
+<summary>for-each</summary>
 
 #### Features
 
@@ -348,11 +314,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### for-each-code-point
-
-<details>
+<summary>for-each-code-point</summary>
 
 #### Features
 
@@ -363,11 +327,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### for-each-grapheme-cluster
-
-<details>
+<summary>for-each-grapheme-cluster</summary>
 
 #### Features
 
@@ -378,11 +340,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### format-interpolate
-
-<details>
+<summary>format-interpolate</summary>
 
 #### Features
 
@@ -392,11 +352,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### format-tokenize
-
-<details>
+<summary>format-tokenize</summary>
 
 #### Features
 
@@ -406,11 +364,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### headercase
-
-<details>
+<summary>headercase</summary>
 
 #### Features
 
@@ -427,11 +383,9 @@ This release closes the following issue:
 
 [#849](undefined)
 
-</details>
+</details><details>
 
-### invcase
-
-<details>
+<summary>invcase</summary>
 
 #### Features
 
@@ -448,11 +402,9 @@ This release closes the following issue:
 
 [#851](https://github.com/stdlib-js/stdlib/issues/851)
 
-</details>
+</details><details>
 
-### kebabcase
-
-<details>
+<summary>kebabcase</summary>
 
 #### Features
 
@@ -462,11 +414,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### left-pad
-
-<details>
+<summary>left-pad</summary>
 
 #### Features
 
@@ -476,11 +426,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### left-trim
-
-<details>
+<summary>left-trim</summary>
 
 #### Features
 
@@ -490,11 +438,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### lowercase
-
-<details>
+<summary>lowercase</summary>
 
 #### Features
 
@@ -504,11 +450,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### pascalcase
-
-<details>
+<summary>pascalcase</summary>
 
 #### Features
 
@@ -518,11 +462,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### percent-encode
-
-<details>
+<summary>percent-encode</summary>
 
 #### Features
 
@@ -532,11 +474,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### remove-first
-
-<details>
+<summary>remove-first</summary>
 
 #### Features
 
@@ -548,11 +488,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### remove-first-code-point
-
-<details>
+<summary>remove-first-code-point</summary>
 
 #### Features
 
@@ -564,11 +502,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### remove-first-grapheme-cluster
-
-<details>
+<summary>remove-first-grapheme-cluster</summary>
 
 #### Features
 
@@ -580,41 +516,33 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### remove-last
-
-<details>
+<summary>remove-last</summary>
 
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 
-</details>
+</details><details>
 
-### remove-last-code-point
-
-<details>
+<summary>remove-last-code-point</summary>
 
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 
-</details>
+</details><details>
 
-### remove-last-grapheme-cluster
-
-<details>
+<summary>remove-last-grapheme-cluster</summary>
 
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 
-</details>
+</details><details>
 
-### repeat
-
-<details>
+<summary>repeat</summary>
 
 #### Features
 
@@ -624,11 +552,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### replace
-
-<details>
+<summary>replace</summary>
 
 #### Features
 
@@ -638,11 +564,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### replace-before
-
-<details>
+<summary>replace-before</summary>
 
 #### Features
 
@@ -666,11 +590,9 @@ This release closes the following issue:
 
 [#811](https://github.com/stdlib-js/stdlib/issues/811)
 
-</details>
+</details><details>
 
-### right-pad
-
-<details>
+<summary>right-pad</summary>
 
 #### Features
 
@@ -681,11 +603,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### right-trim
-
-<details>
+<summary>right-trim</summary>
 
 #### Features
 
@@ -699,11 +619,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### snakecase
-
-<details>
+<summary>snakecase</summary>
 
 #### Features
 
@@ -713,11 +631,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### startcase
-
-<details>
+<summary>startcase</summary>
 
 #### Features
 
@@ -731,11 +647,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### starts-with
-
-<details>
+<summary>starts-with</summary>
 
 #### Features
 
@@ -745,11 +659,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### trim
-
-<details>
+<summary>trim</summary>
 
 #### Features
 
@@ -759,11 +671,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### uncapitalize
-
-<details>
+<summary>uncapitalize</summary>
 
 #### Features
 
@@ -773,11 +683,9 @@ This release closes the following issue:
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details>
+</details><details>
 
-### uppercase
-
-<details>
+<summary>uppercase</summary>
 
 #### Features
 
