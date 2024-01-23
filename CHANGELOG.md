@@ -1,4 +1,3 @@
-git log --name-only --no-merges --pretty=format:"%H|%ad|%aN <%aE>|%B|" lib/node_modules/@stdlib/string/base | awk '/^$/{p=1;next} /^[0-9a-f]{40}\|/{if (p==1) print "$---$"; p=0} {print}'
 # CHANGELOG
 
 > Package changelog.
