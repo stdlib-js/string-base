@@ -2,28 +2,54 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
 ## Unreleased
 
-
+<section class="packages">
 
 ### Packages
+
+<section class="package" id="string_base">
 
 <details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base">@stdlib/string/base</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
 -   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_altcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/altcase">@stdlib/string/base/altcase</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`e4cf6a5`](https://github.com/stdlib-js/stdlib/commit/e4cf6a5254fbcc8ca5e858c2fc5a7fcb0a648164) - add `string/base/altcase` [(#1173)](https://github.com/stdlib-js/stdlib/pull/1173)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
 
 #### Closed Issues
 
@@ -31,56 +57,154 @@ This release closes the following issue:
 
 [#850](https://github.com/stdlib-js/stdlib/issues/850)
 
-</details><details>
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_distances">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances">@stdlib/string/base/distances</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
 -   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_distances_hamming">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances/hamming">@stdlib/string/base/distances/hamming</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`165ab63`](https://github.com/stdlib-js/stdlib/commit/165ab63d2f841d54753be8572f7db06be878dfbb) - add `string/base/distances/hamming` (#1166) [(#1166)](https://github.com/stdlib-js/stdlib/pull/1166)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_reverse">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse">@stdlib/string/base/reverse</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`de17736`](https://github.com/stdlib-js/stdlib/commit/de1773601713083ef826105a70df23c8750f9559) - refactor `string/reverse` and add `mode` option [(#1082)](https://github.com/stdlib-js/stdlib/pull/1082)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_reverse-code-points">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse-code-points">@stdlib/string/base/reverse-code-points</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`de17736`](https://github.com/stdlib-js/stdlib/commit/de1773601713083ef826105a70df23c8750f9559) - refactor `string/reverse` and add `mode` option [(#1082)](https://github.com/stdlib-js/stdlib/pull/1082)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_reverse-grapheme-clusters">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse-grapheme-clusters">@stdlib/string/base/reverse-grapheme-clusters</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`de17736`](https://github.com/stdlib-js/stdlib/commit/de1773601713083ef826105a70df23c8750f9559) - refactor `string/reverse` and add `mode` option [(#1082)](https://github.com/stdlib-js/stdlib/pull/1082)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_truncate-middle">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/truncate-middle">@stdlib/string/base/truncate-middle</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`d859ee0`](https://github.com/stdlib-js/stdlib/commit/d859ee084ec4a90e53cd6914c8abd1633ade0b54) - add `string/base/truncate-middle` [(#1118)](https://github.com/stdlib-js/stdlib/pull/1118)
 
+</section>
+
+<!-- /.features -->
+
 </details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
 
 ### Contributors
 
@@ -91,6 +215,11 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   Robert Gislason
 -   Stephannie Jiménez Gacha
 
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
 
 ### Commits
 
@@ -99,15 +228,15 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - **feat:** update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221) _(by stdlib-bot)_
 -   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
 -   [`8ef1f9e`](https://github.com/stdlib-js/stdlib/commit/8ef1f9eb45527886ba9b0c341704c8ffe6cffbb3) - **docs:** update related packages sections [(#1233)](https://github.com/stdlib-js/stdlib/pull/1233) _(by stdlib-bot)_
--   [`5184bd0`](https://github.com/stdlib-js/stdlib/commit/5184bd0461e8c78f983d4b619a863d93c52c6396) - **docs:** update namespace table of contents [(#undefined)](undefined) _(by stdlib-bot)_
+-   [`5184bd0`](https://github.com/stdlib-js/stdlib/commit/5184bd0461e8c78f983d4b619a863d93c52c6396) - **docs:** update namespace table of contents [(#1213)](https://github.com/stdlib-js/stdlib/pull/1213) _(by stdlib-bot)_
 -   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - **feat:** update namespace exports _(by Philipp Burckhardt)_
--   [`5e1216b`](https://github.com/stdlib-js/stdlib/commit/5e1216ba1318f0eb364b2fe7eae6056cb7a5e94f) - **docs:** update related packages sections [(#undefined)](undefined) _(by stdlib-bot)_
+-   [`5e1216b`](https://github.com/stdlib-js/stdlib/commit/5e1216ba1318f0eb364b2fe7eae6056cb7a5e94f) - **docs:** update related packages sections [(#1192)](https://github.com/stdlib-js/stdlib/pull/1192) _(by stdlib-bot)_
 -   [`165ab63`](https://github.com/stdlib-js/stdlib/commit/165ab63d2f841d54753be8572f7db06be878dfbb) - **feat:** add `string/base/distances/hamming` (#1166) [(#1166)](https://github.com/stdlib-js/stdlib/pull/1166) _(by Robert Gislason)_
--   [`1879534`](https://github.com/stdlib-js/stdlib/commit/18795348ac0c51d3b13c1b26c0f5921ec5fd010c) - **docs:** update related packages sections [(#undefined)](undefined) _(by stdlib-bot)_
+-   [`1879534`](https://github.com/stdlib-js/stdlib/commit/18795348ac0c51d3b13c1b26c0f5921ec5fd010c) - **docs:** update related packages sections [(#1179)](https://github.com/stdlib-js/stdlib/pull/1179) _(by stdlib-bot)_
 -   [`e4cf6a5`](https://github.com/stdlib-js/stdlib/commit/e4cf6a5254fbcc8ca5e858c2fc5a7fcb0a648164) - **feat:** add `string/base/altcase` [(#1173)](https://github.com/stdlib-js/stdlib/pull/1173) _(by Jaysukh Makvana)_
 -   [`4d6b104`](https://github.com/stdlib-js/stdlib/commit/4d6b104a0309b9a016700badd64b137ff384de52) - **docs:** update related packages sections [(#1172)](https://github.com/stdlib-js/stdlib/pull/1172) _(by stdlib-bot)_
 -   [`2f0cb7e`](https://github.com/stdlib-js/stdlib/commit/2f0cb7ed139b763e65205939511c7cc85b947e64) - **docs:** update related packages sections [(#1154)](https://github.com/stdlib-js/stdlib/pull/1154) _(by stdlib-bot)_
--   [`78a556e`](https://github.com/stdlib-js/stdlib/commit/78a556efa2f1da29eb9081d393f5768ad1518117) - **docs:** update related packages sections [(#undefined)](undefined) _(by stdlib-bot)_
+-   [`78a556e`](https://github.com/stdlib-js/stdlib/commit/78a556efa2f1da29eb9081d393f5768ad1518117) - **docs:** update related packages sections [(#1145)](https://github.com/stdlib-js/stdlib/pull/1145) _(by stdlib-bot)_
 -   [`9502ed2`](https://github.com/stdlib-js/stdlib/commit/9502ed27e2853e312c556a48bdd7775095e66709) - **build:** replace tslint directive with eslint equivalent _(by Philipp Burckhardt)_
 -   [`d859ee0`](https://github.com/stdlib-js/stdlib/commit/d859ee084ec4a90e53cd6914c8abd1633ade0b54) - **feat:** add `string/base/truncate-middle` [(#1118)](https://github.com/stdlib-js/stdlib/pull/1118) _(by Stephannie Jiménez Gacha)_
 -   [`d73bbf4`](https://github.com/stdlib-js/stdlib/commit/d73bbf43d222f935085f8ecf7526e5f57835f74e) - **build:** replace lint directives _(by Philipp Burckhardt)_
@@ -116,15 +245,27 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 </details>
 
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 ## 0.1.2 (2023-10-10)
 
-
+<section class="packages">
 
 ### Packages
+
+<section class="package" id="string_base">
 
 <details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base">@stdlib/string/base</a></summary>
+
+<section class="features">
 
 #### Features
 
@@ -143,263 +284,677 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   [`e8775fc`](https://github.com/stdlib-js/stdlib/commit/e8775fcbe3617b9013bd1cea74d7f70aa2669ab4) - update namespace TypeScript declarations [(#951)](https://github.com/stdlib-js/stdlib/pull/951)
 -   [`5eded94`](https://github.com/stdlib-js/stdlib/commit/5eded9427070a00c7e0eaaab81962a049b574b2a) - add `replaceBefore` to namespace
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_camelcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/camelcase">@stdlib/string/base/camelcase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_capitalize">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/capitalize">@stdlib/string/base/capitalize</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_code-point-at">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/code-point-at">@stdlib/string/base/code-point-at</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
 
 #### Bug Fixes
 
 -   [`9212514`](https://github.com/stdlib-js/stdlib/commit/9212514cd0ba9a681c2ca86ebe2fd3b61f866b64) - set correct package names and descriptions
 
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_constantcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/constantcase">@stdlib/string/base/constantcase</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
 #### Bug Fixes
 
--   [`0db467b`](https://github.com/stdlib-js/stdlib/commit/0db467baee5053532d47ea4721870b0ebbaf7831) - correctly parse strings with hyphens in constantcase [(#undefined)](undefined)
+-   [`0db467b`](https://github.com/stdlib-js/stdlib/commit/0db467baee5053532d47ea4721870b0ebbaf7831) - correctly parse strings with hyphens in constantcase [(#1022)](https://github.com/stdlib-js/stdlib/pull/1022)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+#### Closed Issues
+
+This release closes the following issue:
+
+[#1017](https://github.com/stdlib-js/stdlib/issues/1017)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_distances">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances">@stdlib/string/base/distances</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`810ebc1`](https://github.com/stdlib-js/stdlib/commit/810ebc1b4d4b5eaf023f5281774e54db733bb4e0) - update namespace TypeScript declarations [(#1047)](https://github.com/stdlib-js/stdlib/pull/1047)
 -   [`223eb98`](https://github.com/stdlib-js/stdlib/commit/223eb983e3ed03c4927fdd30aad6d1d52813c699) - update namespace TypeScript declarations
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#undefined)](undefined)
+-   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030 )](https://github.com/stdlib-js/stdlib/pull/1030 )
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
 #### Closed Issues
 
 This release closes the following issue:
 
-[#835 ](undefined)
+[#835 ](https://github.com/stdlib-js/stdlib/issues/835 )
 
-</details><details>
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_distances_levenshtein">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances/levenshtein">@stdlib/string/base/distances/levenshtein</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#undefined)](undefined)
+-   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030 )](https://github.com/stdlib-js/stdlib/pull/1030 )
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
 
 #### Closed Issues
 
 This release closes the following issue:
 
-[#835 ](undefined)
+[#835 ](https://github.com/stdlib-js/stdlib/issues/835 )
 
-</details><details>
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_dotcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/dotcase">@stdlib/string/base/dotcase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_ends-with">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/ends-with">@stdlib/string/base/ends-with</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_first">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first">@stdlib/string/base/first</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`cfdd473`](https://github.com/stdlib-js/stdlib/commit/cfdd47366d9599c07ab27e3886de66ec76f7591c) - add `string/base/first`
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_first-code-point">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first-code-point">@stdlib/string/base/first-code-point</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`c80f976`](https://github.com/stdlib-js/stdlib/commit/c80f97615bfc29e0fcc0b0cf1d70d0240b5191f5) - add `string/base/first-code-point`
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_first-grapheme-cluster">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first-grapheme-cluster">@stdlib/string/base/first-grapheme-cluster</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`71e5de2`](https://github.com/stdlib-js/stdlib/commit/71e5de2d7187757ba15043cffac77385d9d6e0aa) - add `string/base/first-grapheme-cluster`
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_for-each">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each">@stdlib/string/base/for-each</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`bc8bdba`](https://github.com/stdlib-js/stdlib/commit/bc8bdba5e90f81bed942f5f0114c6373d323f9b6) - add `string/base/for-each`
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_for-each-code-point">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each-code-point">@stdlib/string/base/for-each-code-point</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`a145df2`](https://github.com/stdlib-js/stdlib/commit/a145df2c49fe0ba4872b0c8cac588a0033db355a) - add `string/base/for-each-code-point`
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_for-each-grapheme-cluster">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each-grapheme-cluster">@stdlib/string/base/for-each-grapheme-cluster</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`b574ced`](https://github.com/stdlib-js/stdlib/commit/b574cede2f83be2615a5227ba57fea7fd603645a) - add `string/base/for-each-grapheme-cluster`
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_format-interpolate">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/format-interpolate">@stdlib/string/base/format-interpolate</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_format-tokenize">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/format-tokenize">@stdlib/string/base/format-tokenize</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_headercase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/headercase">@stdlib/string/base/headercase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
--   [`2dca659`](https://github.com/stdlib-js/stdlib/commit/2dca659781d39918edce23ee741fad6d01d91849) - add `@stdlib/string/base/headercase` [(#undefined)](undefined)
+-   [`2dca659`](https://github.com/stdlib-js/stdlib/commit/2dca659781d39918edce23ee741fad6d01d91849) - add `@stdlib/string/base/headercase` [(#1039)](https://github.com/stdlib-js/stdlib/pull/1039)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
 
 #### Closed Issues
 
 This release closes the following issue:
 
-[#849](undefined)
+[#849](https://github.com/stdlib-js/stdlib/issues/849)
 
-</details><details>
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_invcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/invcase">@stdlib/string/base/invcase</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`93aca6c`](https://github.com/stdlib-js/stdlib/commit/93aca6cb37c64fdd4cc92fe0405968699bc5e520) - add `string/base/invcase` [(#974)](https://github.com/stdlib-js/stdlib/pull/974)
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
 
 #### Closed Issues
 
@@ -407,171 +962,447 @@ This release closes the following issue:
 
 [#851](https://github.com/stdlib-js/stdlib/issues/851)
 
-</details><details>
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_kebabcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/kebabcase">@stdlib/string/base/kebabcase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_left-pad">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/left-pad">@stdlib/string/base/left-pad</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_left-trim">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/left-trim">@stdlib/string/base/left-trim</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_lowercase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/lowercase">@stdlib/string/base/lowercase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_pascalcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/pascalcase">@stdlib/string/base/pascalcase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_percent-encode">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/percent-encode">@stdlib/string/base/percent-encode</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_remove-first">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first">@stdlib/string/base/remove-first</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`d1ded85`](https://github.com/stdlib-js/stdlib/commit/d1ded8522b3ef71491fd262ec2157dd198dff1ac) - add \"base\" string packages and refactor `string/remove-first` [(#1073)](https://github.com/stdlib-js/stdlib/pull/1073)
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_remove-first-code-point">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first-code-point">@stdlib/string/base/remove-first-code-point</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`d1ded85`](https://github.com/stdlib-js/stdlib/commit/d1ded8522b3ef71491fd262ec2157dd198dff1ac) - add \"base\" string packages and refactor `string/remove-first` [(#1073)](https://github.com/stdlib-js/stdlib/pull/1073)
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_remove-first-grapheme-cluster">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first-grapheme-cluster">@stdlib/string/base/remove-first-grapheme-cluster</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`d1ded85`](https://github.com/stdlib-js/stdlib/commit/d1ded8522b3ef71491fd262ec2157dd198dff1ac) - add \"base\" string packages and refactor `string/remove-first` [(#1073)](https://github.com/stdlib-js/stdlib/pull/1073)
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_remove-last">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last">@stdlib/string/base/remove-last</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_remove-last-code-point">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last-code-point">@stdlib/string/base/remove-last-code-point</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_remove-last-grapheme-cluster">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last-grapheme-cluster">@stdlib/string/base/remove-last-grapheme-cluster</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`982de75`](https://github.com/stdlib-js/stdlib/commit/982de7581326be5be20dda30103779ac5ae5767f) - refactor `string/remove-last` [(#1079)](https://github.com/stdlib-js/stdlib/pull/1079)
 
-</details><details>
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_repeat">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/repeat">@stdlib/string/base/repeat</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_replace">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/replace">@stdlib/string/base/replace</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_replace-before">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/replace-before">@stdlib/string/base/replace-before</a></summary>
+
+<section class="features">
 
 #### Features
 
@@ -579,15 +1410,27 @@ This release closes the following issue:
 -   [`a7e60d8`](https://github.com/stdlib-js/stdlib/commit/a7e60d8aae80fa67f961db4221263782edc89f99) - remove CLI
 -   [`ae68d17`](https://github.com/stdlib-js/stdlib/commit/ae68d1783e4d97a36bc6a74d8cbe8004dae79ad2) - add support for replacing the substring before the first occurrence of a search string [(#843)](https://github.com/stdlib-js/stdlib/pull/843)
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+-   [`a7e60d8`](https://github.com/stdlib-js/stdlib/commit/a7e60d8aae80fa67f961db4221263782edc89f99): remove CLI
 -   [`a7e60d8`](https://github.com/stdlib-js/stdlib/commit/a7e60d8aae80fa67f961db4221263782edc89f99): remove CLI 
 
     -   This is a \"base\" package, and thus should not normally have a CLI.
     The CLI has moved to `@stdlib/string/replace-before`. Users relying
     on the CLI should migrate to using that package.
 
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
 
 #### Closed Issues
 
@@ -595,112 +1438,298 @@ This release closes the following issue:
 
 [#811](https://github.com/stdlib-js/stdlib/issues/811)
 
-</details><details>
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_right-pad">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/right-pad">@stdlib/string/base/right-pad</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`857646f`](https://github.com/stdlib-js/stdlib/commit/857646f2545aa881c816b8040621225a9b9e6a27) - add base package to right pad a string
 
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_right-trim">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/right-trim">@stdlib/string/base/right-trim</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
 
 #### Bug Fixes
 
 -   [`9212514`](https://github.com/stdlib-js/stdlib/commit/9212514cd0ba9a681c2ca86ebe2fd3b61f866b64) - set correct package names and descriptions
 
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_snakecase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/snakecase">@stdlib/string/base/snakecase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_startcase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/startcase">@stdlib/string/base/startcase</a></summary>
+
+<section class="features">
 
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
 
 #### Bug Fixes
 
 -   [`9212514`](https://github.com/stdlib-js/stdlib/commit/9212514cd0ba9a681c2ca86ebe2fd3b61f866b64) - set correct package names and descriptions
 
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_starts-with">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/starts-with">@stdlib/string/base/starts-with</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_trim">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/trim">@stdlib/string/base/trim</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_uncapitalize">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/uncapitalize">@stdlib/string/base/uncapitalize</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
-</details><details>
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string_base_uppercase">
+
+<details>
 
 <summary><a href="https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/uppercase">@stdlib/string/base/uppercase</a></summary>
 
+<section class="features">
+
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
 
 #### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
 
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
 
 ### Contributors
 
@@ -714,6 +1743,11 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Stephannie Jiménez Gacha
 -   Yernar Yergaziyev
 
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
 
 ### Commits
 
@@ -771,11 +1805,11 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`1da2118`](https://github.com/stdlib-js/stdlib/commit/1da2118d4b05a19e5c67bf34943004da43bc92ea) - **docs:** update examples to avoid `for` loop _(by Athan Reines)_
 -   [`e2f0029`](https://github.com/stdlib-js/stdlib/commit/e2f00295734722639117d148b518ab9480dabb28) - **docs:** fix variable name in example _(by Athan Reines)_
 -   [`52e7d18`](https://github.com/stdlib-js/stdlib/commit/52e7d18fbd15d5e902bb944a7486323aac19ada7) - **docs:** refactor example to avoid `for` loop _(by Athan Reines)_
--   [`2dca659`](https://github.com/stdlib-js/stdlib/commit/2dca659781d39918edce23ee741fad6d01d91849) - **feat:** add `@stdlib/string/base/headercase` [(#undefined)](undefined) _(by Roman Stetsyk)_
+-   [`2dca659`](https://github.com/stdlib-js/stdlib/commit/2dca659781d39918edce23ee741fad6d01d91849) - **feat:** add `@stdlib/string/base/headercase` [(#1039)](https://github.com/stdlib-js/stdlib/pull/1039) _(by Roman Stetsyk)_
 -   [`55e5756`](https://github.com/stdlib-js/stdlib/commit/55e57561273881a0e5bb1b35489a4801f0d059b6) - **chore:** fix package meta data indentation [(#1033)](https://github.com/stdlib-js/stdlib/pull/1033) _(by stdlib-bot)_
 -   [`223eb98`](https://github.com/stdlib-js/stdlib/commit/223eb983e3ed03c4927fdd30aad6d1d52813c699) - **feat:** update namespace TypeScript declarations _(by stdlib-bot)_
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - **feat:** add `string/base/distances/levenshtein` [(#undefined)](undefined) _(by Naresh Jagadeesan)_
--   [`0db467b`](https://github.com/stdlib-js/stdlib/commit/0db467baee5053532d47ea4721870b0ebbaf7831) - **fix:** correctly parse strings with hyphens in constantcase [(#undefined)](undefined) _(by Roman Stetsyk)_
+-   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - **feat:** add `string/base/distances/levenshtein` [(#1030 )](https://github.com/stdlib-js/stdlib/pull/1030 ) _(by Naresh Jagadeesan)_
+-   [`0db467b`](https://github.com/stdlib-js/stdlib/commit/0db467baee5053532d47ea4721870b0ebbaf7831) - **fix:** correctly parse strings with hyphens in constantcase [(#1022)](https://github.com/stdlib-js/stdlib/pull/1022) _(by Roman Stetsyk)_
 -   [`857646f`](https://github.com/stdlib-js/stdlib/commit/857646f2545aa881c816b8040621225a9b9e6a27) - **feat:** add base package to right pad a string _(by Philipp Burckhardt)_
 -   [`dace169`](https://github.com/stdlib-js/stdlib/commit/dace169a8a53022f0ffcabf4084f61a7f0f49a8f) - **docs:** update namespace table of contents [(#986)](https://github.com/stdlib-js/stdlib/pull/986) _(by stdlib-bot)_
 -   [`e34d9a0`](https://github.com/stdlib-js/stdlib/commit/e34d9a09e864d8f25460974f6e3e4eb3b03ea6a2) - **docs:** update namespace TypeScript declarations [(#984)](https://github.com/stdlib-js/stdlib/pull/984) _(by stdlib-bot)_
@@ -792,4 +1826,6 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 </details>
 
+</section>
 
+<!-- /.commits -->
