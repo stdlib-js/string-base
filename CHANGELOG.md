@@ -204,6 +204,18 @@ This release closes the following issue:
 
 <!-- /.packages -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#850](https://github.com/stdlib-js/stdlib/issues/850)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
@@ -288,6 +300,16 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -310,6 +332,16 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -331,6 +363,16 @@ A total of 4 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -364,6 +406,16 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -396,6 +448,16 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 #### Closed Issues
@@ -427,11 +489,21 @@ This release closes the following issue:
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`810ebc1`](https://github.com/stdlib-js/stdlib/commit/810ebc1b4d4b5eaf023f5281774e54db733bb4e0) - update namespace TypeScript declarations [(#1047)](https://github.com/stdlib-js/stdlib/pull/1047)
 -   [`223eb98`](https://github.com/stdlib-js/stdlib/commit/223eb983e3ed03c4927fdd30aad6d1d52813c699) - update namespace TypeScript declarations
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030 )](https://github.com/stdlib-js/stdlib/pull/1030 )
+-   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030)](https://github.com/stdlib-js/stdlib/pull/1030 )
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -462,11 +534,21 @@ This release closes the following issue:
 #### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030 )](https://github.com/stdlib-js/stdlib/pull/1030 )
+-   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030)](https://github.com/stdlib-js/stdlib/pull/1030 )
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -502,6 +584,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -523,6 +615,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -547,6 +649,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -569,6 +681,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -593,6 +715,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -615,6 +747,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -639,6 +781,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -662,6 +814,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -683,6 +845,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -706,6 +878,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -728,6 +910,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -764,6 +956,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 #### Closed Issues
@@ -798,6 +1000,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -819,6 +1031,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -842,6 +1064,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -863,6 +1095,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -886,6 +1128,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -907,6 +1159,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -932,6 +1194,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -956,6 +1228,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -979,6 +1261,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1068,6 +1360,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1089,6 +1391,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1113,6 +1425,22 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+-   [`a7e60d8`](https://github.com/stdlib-js/stdlib/commit/a7e60d8aae80fa67f961db4221263782edc89f99): remove CLI
+-   [`a7e60d8`](https://github.com/stdlib-js/stdlib/commit/a7e60d8aae80fa67f961db4221263782edc89f99): remove CLI 
+
+    -   This is a \"base\" package, and thus should not normally have a CLI.
+    The CLI has moved to `@stdlib/string/replace-before`. Users relying
+    on the CLI should migrate to using that package.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -1149,6 +1477,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1181,6 +1519,16 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1202,6 +1550,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1235,6 +1593,16 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1256,6 +1624,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1279,6 +1657,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1301,6 +1689,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -1322,6 +1720,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+#### BREAKING CHANGES
+
+-   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1348,6 +1756,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 5 issues were closed in this release:
+
+[#811](https://github.com/stdlib-js/stdlib/issues/811), [#835 ](https://github.com/stdlib-js/stdlib/issues/835 ), [#849](https://github.com/stdlib-js/stdlib/issues/849), [#851](https://github.com/stdlib-js/stdlib/issues/851), [#1017](https://github.com/stdlib-js/stdlib/issues/1017)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
@@ -1428,7 +1848,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`2dca659`](https://github.com/stdlib-js/stdlib/commit/2dca659781d39918edce23ee741fad6d01d91849) - **feat:** add `@stdlib/string/base/headercase` [(#1039)](https://github.com/stdlib-js/stdlib/pull/1039) _(by Roman Stetsyk)_
 -   [`55e5756`](https://github.com/stdlib-js/stdlib/commit/55e57561273881a0e5bb1b35489a4801f0d059b6) - **chore:** fix package meta data indentation [(#1033)](https://github.com/stdlib-js/stdlib/pull/1033) _(by stdlib-bot)_
 -   [`223eb98`](https://github.com/stdlib-js/stdlib/commit/223eb983e3ed03c4927fdd30aad6d1d52813c699) - **feat:** update namespace TypeScript declarations _(by stdlib-bot)_
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - **feat:** add `string/base/distances/levenshtein` [(#1030 )](https://github.com/stdlib-js/stdlib/pull/1030 ) _(by Naresh Jagadeesan)_
+-   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - **feat:** add `string/base/distances/levenshtein` [(#1030)](https://github.com/stdlib-js/stdlib/pull/1030 ) _(by Naresh Jagadeesan)_
 -   [`0db467b`](https://github.com/stdlib-js/stdlib/commit/0db467baee5053532d47ea4721870b0ebbaf7831) - **fix:** correctly parse strings with hyphens in constantcase [(#1022)](https://github.com/stdlib-js/stdlib/pull/1022) _(by Roman Stetsyk)_
 -   [`857646f`](https://github.com/stdlib-js/stdlib/commit/857646f2545aa881c816b8040621225a9b9e6a27) - **feat:** add base package to right pad a string _(by Philipp Burckhardt)_
 -   [`dace169`](https://github.com/stdlib-js/stdlib/commit/dace169a8a53022f0ffcabf4084f61a7f0f49a8f) - **docs:** update namespace table of contents [(#986)](https://github.com/stdlib-js/stdlib/pull/986) _(by stdlib-bot)_
