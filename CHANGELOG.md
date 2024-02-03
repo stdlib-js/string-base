@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-02-02)
+## Unreleased (2024-02-03)
 
 <section class="packages">
 
@@ -15,8 +15,6 @@
 #### [@stdlib/string/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -40,8 +38,6 @@
 #### [@stdlib/string/base/altcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/altcase)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -77,8 +73,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -102,8 +96,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -125,8 +117,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/reverse](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/reverse)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -150,8 +140,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -174,8 +162,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -197,8 +183,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/truncate-middle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/truncate-middle)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -293,8 +277,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -340,8 +322,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -374,8 +354,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -407,8 +385,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 #### [@stdlib/string/base/code-point-at](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/code-point-at)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -451,8 +427,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 #### [@stdlib/string/base/constantcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/constantcase)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -508,8 +482,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -557,8 +529,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -604,8 +574,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -638,8 +606,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -671,8 +637,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/first](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -707,8 +671,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -741,8 +703,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/first-grapheme-cluster](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/first-grapheme-cluster)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -777,8 +737,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -811,8 +769,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/for-each-code-point](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/for-each-code-point)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -847,8 +803,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -882,8 +836,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -916,8 +868,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -949,8 +899,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/headercase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/headercase)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -997,8 +945,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1044,8 +990,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1077,8 +1021,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/left-pad](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/left-pad)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1112,8 +1054,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1145,8 +1085,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/lowercase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/lowercase)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1180,8 +1118,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1214,8 +1150,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1247,8 +1181,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/remove-first](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1284,8 +1216,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1319,8 +1249,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/remove-first-grapheme-cluster](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-first-grapheme-cluster)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1356,8 +1284,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1379,8 +1305,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/remove-last-code-point](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/remove-last-code-point)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1404,8 +1328,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1427,8 +1349,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/repeat](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/repeat)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1462,8 +1382,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1495,8 +1413,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/replace-before](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/replace-before)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1550,8 +1466,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1584,8 +1498,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/right-trim](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/right-trim)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1629,8 +1541,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1662,8 +1572,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/startcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/startcase)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1707,8 +1615,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1740,8 +1646,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/trim](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/trim)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
@@ -1775,8 +1679,6 @@ This release closes the following issue:
 
 <details>
 
-<summary>Details</summary>
-
 <section class="features">
 
 ##### Features
@@ -1808,8 +1710,6 @@ This release closes the following issue:
 #### [@stdlib/string/base/uppercase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/uppercase)
 
 <details>
-
-<summary>Details</summary>
 
 <section class="features">
 
