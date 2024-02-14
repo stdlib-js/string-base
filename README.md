@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { altcase, camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachGraphemeCluster, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, removeLast, removeLastCodePoint, removeLastGraphemeCluster, repeat, replace, replaceBefore, reverse, reverseCodePoints, reverseGraphemeClusters, rpad, rtrim, snakecase, startcase, startsWith, trim, truncateMiddle, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+import { altcase, camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachGraphemeCluster, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, removeLast, removeLastCodePoint, removeLastGraphemeCluster, repeat, replace, replaceBefore, reverse, reverseCodePoints, reverseGraphemeClusters, rpad, rtrim, snakecase, startcase, startsWith, trim, truncateMiddle, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.2.0-deno/mod.js';
 ```
 
 #### string
@@ -137,7 +137,7 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.2.0-deno/mod.js';
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
