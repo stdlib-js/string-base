@@ -50,6 +50,7 @@
     "@stdlib/string-base-for-each": "^0.2.1",
     "@stdlib/string-base-for-each-code-point": "^0.2.1",
     "@stdlib/string-base-for-each-grapheme-cluster": "^0.2.1",
+    "@stdlib/string-base-for-each-right": "github:stdlib-js/string-base-for-each-right#main",
     "@stdlib/string-base-format-interpolate": "^0.2.1",
     "@stdlib/string-base-format-tokenize": "^0.2.1",
     "@stdlib/string-base-headercase": "^0.2.1",
