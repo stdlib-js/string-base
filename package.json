@@ -70,6 +70,7 @@
     "@stdlib/string-base-repeat": "^0.2.1",
     "@stdlib/string-base-replace": "^0.2.1",
     "@stdlib/string-base-replace-after": "github:stdlib-js/string-base-replace-after#main",
+    "@stdlib/string-base-replace-after-last": "github:stdlib-js/string-base-replace-after-last#main",
     "@stdlib/string-base-replace-before": "^0.2.1",
     "@stdlib/string-base-replace-before-last": "github:stdlib-js/string-base-replace-before-last#main",
     "@stdlib/string-base-reverse": "^0.2.1",
