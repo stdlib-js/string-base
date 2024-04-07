@@ -110,7 +110,9 @@ The namespace contains the following functions:
 -   <span class="signature">[`removeLastGraphemeCluster( str, n )`][@stdlib/string/base/remove-last-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">remove the last `n` grapheme clusters (i.e., user-perceived characters) of a string.</span>
 -   <span class="signature">[`removeLast( str, n )`][@stdlib/string/base/remove-last]</span><span class="delimiter">: </span><span class="description">remove the last `n` UTF-16 code units of a string.</span>
 -   <span class="signature">[`repeat( str, n )`][@stdlib/string/base/repeat]</span><span class="delimiter">: </span><span class="description">repeat a string a specified number of times and return the concatenated result.</span>
+-   <span class="signature">[`replaceAfterLast( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-after-last]</span><span class="delimiter">: </span><span class="description">replace the substring after the last occurrence of a specified search string.</span>
 -   <span class="signature">[`replaceAfter( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-after]</span><span class="delimiter">: </span><span class="description">replace the substring after the first occurrence of a specified search string.</span>
+-   <span class="signature">[`replaceBeforeLast( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-before-last]</span><span class="delimiter">: </span><span class="description">replace the substring before the last occurrence of a specified search string.</span>
 -   <span class="signature">[`replaceBefore( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-before]</span><span class="delimiter">: </span><span class="description">replace the substring before the first occurrence of a specified search string.</span>
 -   <span class="signature">[`replace( str, search, newval )`][@stdlib/string/base/replace]</span><span class="delimiter">: </span><span class="description">replace search occurrences with a replacement string.</span>
 -   <span class="signature">[`reverseCodePoints( str )`][@stdlib/string/base/reverse-code-points]</span><span class="delimiter">: </span><span class="description">reverse the Unicode code points of a string.</span>
@@ -212,11 +214,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -262,8 +259,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/string-base/tree/esm
 [esm-readme]: https://github.com/stdlib-js/string-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/string-base/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base/main/LICENSE
 
 <!-- <toc-links> -->
 
@@ -331,7 +326,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
 
+[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last
+
 [@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after
+
+[@stdlib/string/base/replace-before-last]: https://github.com/stdlib-js/string-base-replace-before-last
 
 [@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
 
