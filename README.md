@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) string functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { altcase, camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachGraphemeCluster, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, removeLast, removeLastCodePoint, removeLastGraphemeCluster, repeat, replace, replaceBefore, reverse, reverseCodePoints, reverseGraphemeClusters, rpad, rtrim, snakecase, startcase, startsWith, trim, truncateMiddle, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+var string = require( '@stdlib/string-base' );
 ```
 
 #### string
@@ -79,6 +91,7 @@ The namespace contains the following functions:
 -   <span class="signature">[`first( str, n )`][@stdlib/string/base/first]</span><span class="delimiter">: </span><span class="description">return the first `n` UTF-16 code units of a string.</span>
 -   <span class="signature">[`forEachCodePoint( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each-code-point]</span><span class="delimiter">: </span><span class="description">invokes a function for each Unicode code point in a string.</span>
 -   <span class="signature">[`forEachGraphemeCluster( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">invokes a function for each grapheme cluster (i.e., user-perceived character) in a string.</span>
+-   <span class="signature">[`forEachRight( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each-right]</span><span class="delimiter">: </span><span class="description">invokes a function for each UTF-16 code unit in a string, iterating from right to left.</span>
 -   <span class="signature">[`forEach( str, clbk[, thisArg ] )`][@stdlib/string/base/for-each]</span><span class="delimiter">: </span><span class="description">invokes a function for each UTF-16 code unit in a string.</span>
 -   <span class="signature">[`formatInterpolate( tokens, ...args )`][@stdlib/string/base/format-interpolate]</span><span class="delimiter">: </span><span class="description">generate string from a token array by interpolating values.</span>
 -   <span class="signature">[`formatTokenize( str )`][@stdlib/string/base/format-tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string into an array of string parts and format identifier objects.</span>
@@ -97,7 +110,10 @@ The namespace contains the following functions:
 -   <span class="signature">[`removeLastGraphemeCluster( str, n )`][@stdlib/string/base/remove-last-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">remove the last `n` grapheme clusters (i.e., user-perceived characters) of a string.</span>
 -   <span class="signature">[`removeLast( str, n )`][@stdlib/string/base/remove-last]</span><span class="delimiter">: </span><span class="description">remove the last `n` UTF-16 code units of a string.</span>
 -   <span class="signature">[`repeat( str, n )`][@stdlib/string/base/repeat]</span><span class="delimiter">: </span><span class="description">repeat a string a specified number of times and return the concatenated result.</span>
--   <span class="signature">[`replaceBefore( str, search, replacement )`][@stdlib/string/base/replace-before]</span><span class="delimiter">: </span><span class="description">replace the substring before the first occurrence of a specified search string.</span>
+-   <span class="signature">[`replaceAfterLast( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-after-last]</span><span class="delimiter">: </span><span class="description">replace the substring after the last occurrence of a specified search string.</span>
+-   <span class="signature">[`replaceAfter( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-after]</span><span class="delimiter">: </span><span class="description">replace the substring after the first occurrence of a specified search string.</span>
+-   <span class="signature">[`replaceBeforeLast( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-before-last]</span><span class="delimiter">: </span><span class="description">replace the substring before the last occurrence of a specified search string.</span>
+-   <span class="signature">[`replaceBefore( str, search, replacement, fromIndex )`][@stdlib/string/base/replace-before]</span><span class="delimiter">: </span><span class="description">replace the substring before the first occurrence of a specified search string.</span>
 -   <span class="signature">[`replace( str, search, newval )`][@stdlib/string/base/replace]</span><span class="delimiter">: </span><span class="description">replace search occurrences with a replacement string.</span>
 -   <span class="signature">[`reverseCodePoints( str )`][@stdlib/string/base/reverse-code-points]</span><span class="delimiter">: </span><span class="description">reverse the Unicode code points of a string.</span>
 -   <span class="signature">[`reverseGraphemeClusters( str )`][@stdlib/string/base/reverse-grapheme-clusters]</span><span class="delimiter">: </span><span class="description">reverse the grapheme clusters (i.e., user-perceived characters) of a string.</span>
@@ -137,7 +153,7 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+var ns = require( '@stdlib/string-base' );
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
@@ -188,7 +204,7 @@ str = ns.trim( str );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -253,95 +269,103 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/string/base/altcase]: https://github.com/stdlib-js/string-base-altcase/tree/deno
+[@stdlib/string/base/altcase]: https://github.com/stdlib-js/string-base-altcase
 
-[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase/tree/deno
+[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase
 
-[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize/tree/deno
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
 
-[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at/tree/deno
+[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at
 
-[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase/tree/deno
+[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase
 
-[@stdlib/string/base/distances]: https://github.com/stdlib-js/string-base-distances/tree/deno
+[@stdlib/string/base/distances]: https://github.com/stdlib-js/string-base-distances
 
-[@stdlib/string/base/dotcase]: https://github.com/stdlib-js/string-base-dotcase/tree/deno
+[@stdlib/string/base/dotcase]: https://github.com/stdlib-js/string-base-dotcase
 
-[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with/tree/deno
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
 
-[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point/tree/deno
+[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point
 
-[@stdlib/string/base/first-grapheme-cluster]: https://github.com/stdlib-js/string-base-first-grapheme-cluster/tree/deno
+[@stdlib/string/base/first-grapheme-cluster]: https://github.com/stdlib-js/string-base-first-grapheme-cluster
 
-[@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first/tree/deno
+[@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first
 
-[@stdlib/string/base/for-each-code-point]: https://github.com/stdlib-js/string-base-for-each-code-point/tree/deno
+[@stdlib/string/base/for-each-code-point]: https://github.com/stdlib-js/string-base-for-each-code-point
 
-[@stdlib/string/base/for-each-grapheme-cluster]: https://github.com/stdlib-js/string-base-for-each-grapheme-cluster/tree/deno
+[@stdlib/string/base/for-each-grapheme-cluster]: https://github.com/stdlib-js/string-base-for-each-grapheme-cluster
 
-[@stdlib/string/base/for-each]: https://github.com/stdlib-js/string-base-for-each/tree/deno
+[@stdlib/string/base/for-each-right]: https://github.com/stdlib-js/string-base-for-each-right
 
-[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate/tree/deno
+[@stdlib/string/base/for-each]: https://github.com/stdlib-js/string-base-for-each
 
-[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize/tree/deno
+[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate
 
-[@stdlib/string/base/headercase]: https://github.com/stdlib-js/string-base-headercase/tree/deno
+[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
 
-[@stdlib/string/base/invcase]: https://github.com/stdlib-js/string-base-invcase/tree/deno
+[@stdlib/string/base/headercase]: https://github.com/stdlib-js/string-base-headercase
 
-[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase/tree/deno
+[@stdlib/string/base/invcase]: https://github.com/stdlib-js/string-base-invcase
 
-[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad/tree/deno
+[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase
 
-[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim/tree/deno
+[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad
 
-[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase/tree/deno
+[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim
 
-[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase/tree/deno
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
 
-[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode/tree/deno
+[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase
 
-[@stdlib/string/base/remove-first-code-point]: https://github.com/stdlib-js/string-base-remove-first-code-point/tree/deno
+[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode
 
-[@stdlib/string/base/remove-first-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-first-grapheme-cluster/tree/deno
+[@stdlib/string/base/remove-first-code-point]: https://github.com/stdlib-js/string-base-remove-first-code-point
 
-[@stdlib/string/base/remove-first]: https://github.com/stdlib-js/string-base-remove-first/tree/deno
+[@stdlib/string/base/remove-first-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-first-grapheme-cluster
 
-[@stdlib/string/base/remove-last-code-point]: https://github.com/stdlib-js/string-base-remove-last-code-point/tree/deno
+[@stdlib/string/base/remove-first]: https://github.com/stdlib-js/string-base-remove-first
 
-[@stdlib/string/base/remove-last-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-last-grapheme-cluster/tree/deno
+[@stdlib/string/base/remove-last-code-point]: https://github.com/stdlib-js/string-base-remove-last-code-point
 
-[@stdlib/string/base/remove-last]: https://github.com/stdlib-js/string-base-remove-last/tree/deno
+[@stdlib/string/base/remove-last-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-last-grapheme-cluster
 
-[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat/tree/deno
+[@stdlib/string/base/remove-last]: https://github.com/stdlib-js/string-base-remove-last
 
-[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before/tree/deno
+[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
 
-[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace/tree/deno
+[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last
 
-[@stdlib/string/base/reverse-code-points]: https://github.com/stdlib-js/string-base-reverse-code-points/tree/deno
+[@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after
 
-[@stdlib/string/base/reverse-grapheme-clusters]: https://github.com/stdlib-js/string-base-reverse-grapheme-clusters/tree/deno
+[@stdlib/string/base/replace-before-last]: https://github.com/stdlib-js/string-base-replace-before-last
 
-[@stdlib/string/base/reverse]: https://github.com/stdlib-js/string-base-reverse/tree/deno
+[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
 
-[@stdlib/string/base/right-pad]: https://github.com/stdlib-js/string-base-right-pad/tree/deno
+[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
 
-[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim/tree/deno
+[@stdlib/string/base/reverse-code-points]: https://github.com/stdlib-js/string-base-reverse-code-points
 
-[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase/tree/deno
+[@stdlib/string/base/reverse-grapheme-clusters]: https://github.com/stdlib-js/string-base-reverse-grapheme-clusters
 
-[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase/tree/deno
+[@stdlib/string/base/reverse]: https://github.com/stdlib-js/string-base-reverse
 
-[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with/tree/deno
+[@stdlib/string/base/right-pad]: https://github.com/stdlib-js/string-base-right-pad
 
-[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim/tree/deno
+[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim
 
-[@stdlib/string/base/truncate-middle]: https://github.com/stdlib-js/string-base-truncate-middle/tree/deno
+[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase
 
-[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize/tree/deno
+[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase
 
-[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase/tree/deno
+[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with
+
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
+
+[@stdlib/string/base/truncate-middle]: https://github.com/stdlib-js/string-base-truncate-middle
+
+[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize
+
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
 
 <!-- </toc-links> -->
 
