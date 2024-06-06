@@ -49,7 +49,7 @@
     "@stdlib/string-base-first-grapheme-cluster": "^0.2.1",
     "@stdlib/string-base-for-each": "^0.2.1",
     "@stdlib/string-base-for-each-code-point": "^0.2.1",
-    "@stdlib/string-base-for-each-code-point-right": "github:stdlib-js/string-base-for-each-code-point-right#main",
+    "@stdlib/string-base-for-each-code-point-right": "^0.0.1",
     "@stdlib/string-base-for-each-grapheme-cluster": "^0.2.1",
     "@stdlib/string-base-for-each-right": "^0.1.0",
     "@stdlib/string-base-format-interpolate": "^0.2.1",
