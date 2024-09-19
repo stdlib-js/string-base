@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-10)
+## Unreleased (2024-09-19)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`2eded73`](https://github.com/stdlib-js/stdlib/commit/2eded73655c7d803cdbdce88d38af9bc5aab42b0) - add `base64ToUint8Array` to namespace
 -   [`095449b`](https://github.com/stdlib-js/stdlib/commit/095449bc5f6084b363a5b1dc1deb040fd029b76b) - add `atob` to namespace
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - update namespace TypeScript declarations
 -   [`7f14562`](https://github.com/stdlib-js/stdlib/commit/7f145620d310738f2fd3bd15a3b97b803dff4e73) - add new packages to  namespaces
@@ -51,6 +52,28 @@
 ##### Features
 
 -   [`37e0d70`](https://github.com/stdlib-js/stdlib/commit/37e0d70a86a621a109f74c68adbc6aa4a4177f0f) - add `string/base/atob`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="string-base-base64-to-uint8array-unreleased">
+
+#### [@stdlib/string/base/base64-to-uint8array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/base64-to-uint8array)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`09e7120`](https://github.com/stdlib-js/stdlib/commit/09e71201868eaa8fb1c003c4de270b4002fa900c) - add `string/base/base64-to-uint8array`
 
 </section>
 
@@ -605,6 +628,10 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2eded73`](https://github.com/stdlib-js/stdlib/commit/2eded73655c7d803cdbdce88d38af9bc5aab42b0) - **feat:** add `base64ToUint8Array` to namespace _(by Athan Reines)_
+-   [`09e7120`](https://github.com/stdlib-js/stdlib/commit/09e71201868eaa8fb1c003c4de270b4002fa900c) - **feat:** add `string/base/base64-to-uint8array` _(by Athan Reines)_
+-   [`f200857`](https://github.com/stdlib-js/stdlib/commit/f2008570f57d9bdaec78ec212fe91858f68cf3ac) - **chore:** fix copyright year _(by Athan Reines)_
+-   [`1c44dbd`](https://github.com/stdlib-js/stdlib/commit/1c44dbd95fa65436eb96e8dfc312d4d08df6c018) - **chore:** add browser entry point _(by Athan Reines)_
 -   [`095449b`](https://github.com/stdlib-js/stdlib/commit/095449bc5f6084b363a5b1dc1deb040fd029b76b) - **feat:** add `atob` to namespace _(by Athan Reines)_
 -   [`37e0d70`](https://github.com/stdlib-js/stdlib/commit/37e0d70a86a621a109f74c68adbc6aa4a4177f0f) - **feat:** add `string/base/atob` _(by Athan Reines)_
 -   [`67858b3`](https://github.com/stdlib-js/stdlib/commit/67858b341e920fed871e34ba0d6b6809804916f7) - **feat:** improve type safety _(by Philipp Burckhardt)_
