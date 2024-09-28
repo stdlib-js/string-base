@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-19)
+## Unreleased (2024-09-28)
 
 <section class="packages">
 
@@ -616,7 +616,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Golden Kumar
 -   Khaldon
 -   Philipp Burckhardt
--   Pranav
+-   Pranav Goswami
 
 </section>
 
@@ -628,6 +628,11 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
+-   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
+-   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
+-   [`b723a6e`](https://github.com/stdlib-js/stdlib/commit/b723a6eaec97adad2da4ffbecb532a3d1ae1e0ba) - **docs:** fix errors in comments and clean-up _(by Philipp Burckhardt)_
+-   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`2eded73`](https://github.com/stdlib-js/stdlib/commit/2eded73655c7d803cdbdce88d38af9bc5aab42b0) - **feat:** add `base64ToUint8Array` to namespace _(by Athan Reines)_
 -   [`09e7120`](https://github.com/stdlib-js/stdlib/commit/09e71201868eaa8fb1c003c4de270b4002fa900c) - **feat:** add `string/base/base64-to-uint8array` _(by Athan Reines)_
 -   [`f200857`](https://github.com/stdlib-js/stdlib/commit/f2008570f57d9bdaec78ec212fe91858f68cf3ac) - **chore:** fix copyright year _(by Athan Reines)_
@@ -2512,7 +2517,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Naresh Jagadeesan
 -   Philipp Burckhardt
 -   Planeshifter
--   Pranav
+-   Pranav Goswami
 -   Roman Stetsyk
 -   Stephannie Jiménez Gacha
 -   Yernar Yergaziyev
