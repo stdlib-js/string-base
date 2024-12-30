@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-21)
+## Unreleased (2024-12-30)
 
 <section class="packages">
 
@@ -628,10 +628,10 @@ A total of 4 issues were closed in this release:
 A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Sapra
+-   Ahmed Khaled
 -   Anudeep Sanapala
 -   Athan Reines
 -   Golden Kumar
--   Khaldon
 -   Philipp Burckhardt
 -   Pranav Goswami
 
@@ -645,6 +645,21 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
+-   [`a69e423`](https://github.com/stdlib-js/stdlib/commit/a69e423dc4990692cdf4ce6648544ba30594d7cb) - **docs:** update related packages sections [(#4265)](https://github.com/stdlib-js/stdlib/pull/4265) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`f9fce59`](https://github.com/stdlib-js/stdlib/commit/f9fce5904d09fc2f61c1d7c21d26e59f7de17420) - **docs:** update related packages sections [(#4212)](https://github.com/stdlib-js/stdlib/pull/4212) _(by stdlib-bot)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`7d6450c`](https://github.com/stdlib-js/stdlib/commit/7d6450c671dd91fffbec536a216a76f9e094dad0) - **docs:** update related packages sections [(#4186)](https://github.com/stdlib-js/stdlib/pull/4186) _(by stdlib-bot)_
+-   [`8684eb4`](https://github.com/stdlib-js/stdlib/commit/8684eb429498a239bff9bdd72f443dd1cd981552) - **docs:** update related packages sections [(#4114)](https://github.com/stdlib-js/stdlib/pull/4114) _(by stdlib-bot, Athan Reines)_
+-   [`f317033`](https://github.com/stdlib-js/stdlib/commit/f3170337071651a2997d15ac194fc767570f2f75) - **docs:** update related packages sections [(#4040)](https://github.com/stdlib-js/stdlib/pull/4040) _(by stdlib-bot)_
+-   [`a1b543a`](https://github.com/stdlib-js/stdlib/commit/a1b543a2a1bdf4d1fb9438bd4a13cb971af62063) - **docs:** update related packages sections [(#4009)](https://github.com/stdlib-js/stdlib/pull/4009) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
+-   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
+-   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
+-   [`0a8192d`](https://github.com/stdlib-js/stdlib/commit/0a8192d68506a2abf4c3e52e1af9f1510e1660b4) - **docs:** update related packages sections [(#3370)](https://github.com/stdlib-js/stdlib/pull/3370) _(by stdlib-bot)_
+-   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
@@ -671,7 +686,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`53fd65d`](https://github.com/stdlib-js/stdlib/commit/53fd65de03a466f6cf3ca0752c0908a57ef151b1) - **docs:** update related packages sections [(#2240)](https://github.com/stdlib-js/stdlib/pull/2240) _(by stdlib-bot)_
 -   [`7f14562`](https://github.com/stdlib-js/stdlib/commit/7f145620d310738f2fd3bd15a3b97b803dff4e73) - **feat:** add new packages to  namespaces _(by Philipp Burckhardt)_
 -   [`189c569`](https://github.com/stdlib-js/stdlib/commit/189c5691b88b36a2fd1ff53368e6d44b90e40535) - **docs:** update related packages sections [(#2194)](https://github.com/stdlib-js/stdlib/pull/2194) _(by stdlib-bot)_
--   [`91f84da`](https://github.com/stdlib-js/stdlib/commit/91f84dabd8218e66dde7e25c570904e790d5e8a3) - **feat:** add `string/base/for-each-code-point-right` [(#2163)](https://github.com/stdlib-js/stdlib/pull/2163) _(by Khaldon, Athan Reines)_
+-   [`91f84da`](https://github.com/stdlib-js/stdlib/commit/91f84dabd8218e66dde7e25c570904e790d5e8a3) - **feat:** add `string/base/for-each-code-point-right` [(#2163)](https://github.com/stdlib-js/stdlib/pull/2163) _(by Ahmed Khaled, Athan Reines)_
 -   [`57e8762`](https://github.com/stdlib-js/stdlib/commit/57e87620ec449ad73b884e3b4850537df0c494fe) - **chore:** change to relative require paths and fix code style _(by Philipp Burckhardt)_
 -   [`a9bf096`](https://github.com/stdlib-js/stdlib/commit/a9bf0960cff2227ff551671eb2de9e00e7c9851c) - **chore:** use relative paths for internal requires _(by Philipp Burckhardt)_
 -   [`4b7bda7`](https://github.com/stdlib-js/stdlib/commit/4b7bda7cf10fd6dfdd4246152a120da2860893c7) - **docs:** update namespace table of contents [(#2137)](https://github.com/stdlib-js/stdlib/pull/2137) _(by stdlib-bot, Athan Reines)_
@@ -702,7 +717,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`84a6f4b`](https://github.com/stdlib-js/stdlib/commit/84a6f4be753da2f694affc99d649b49f5e41e231) - **feat:** add  `string/base/stickycase` _(by Anudeep Sanapala, stdlib-bot, Philipp Burckhardt)_
 -   [`272f91b`](https://github.com/stdlib-js/stdlib/commit/272f91b30128d4536470605d01aeeb73d2684376) - **feat:** add `string/base/replace-before-last` [(#1364)](https://github.com/stdlib-js/stdlib/pull/1364) _(by Golden Kumar, stdlib-bot, Athan Reines, Philipp Burckhardt)_
 -   [`58bdac8`](https://github.com/stdlib-js/stdlib/commit/58bdac8a8a5914b7b2598f873418f9edae4c8843) - **feat:** add `string/base/replace-after-last` [(#1365)](https://github.com/stdlib-js/stdlib/pull/1365) _(by Golden Kumar, Athan Reines, Philipp Burckhardt)_
--   [`0aa7b4a`](https://github.com/stdlib-js/stdlib/commit/0aa7b4ad8adfde545ba39a7a4d5ebf1afc502342) - **feat:** add `string/base/for-each-right` [(#1369)](https://github.com/stdlib-js/stdlib/pull/1369) _(by Khaldon, Philipp Burckhardt)_
+-   [`0aa7b4a`](https://github.com/stdlib-js/stdlib/commit/0aa7b4ad8adfde545ba39a7a4d5ebf1afc502342) - **feat:** add `string/base/for-each-right` [(#1369)](https://github.com/stdlib-js/stdlib/pull/1369) _(by Ahmed Khaled, Philipp Burckhardt)_
 -   [`04ee89f`](https://github.com/stdlib-js/stdlib/commit/04ee89f626756ab9da99b864ccbb9897964a568d) - **feat:** add `string/base/replace-after` [(#1363)](https://github.com/stdlib-js/stdlib/pull/1363) _(by Golden Kumar, Athan Reines)_
 
 </details>
