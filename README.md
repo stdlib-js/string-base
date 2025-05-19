@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) string functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-string = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var string = require( 'path/to/vendor/umd/string-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.string;
-})();
-</script>
+var string = require( '@stdlib/string-base' );
 ```
 
 #### string
@@ -165,13 +159,8 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error", @cspell/spellchecker: "off" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ns = require( '@stdlib/string-base' );
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
@@ -199,11 +188,6 @@ bool = ns.endsWith( str, 'amet' );
 str = '   \t\n Lorem ipsum dolor sit amet   \n\t  ';
 str = ns.trim( str );
 // returns 'Lorem ipsum dolor sit amet'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -292,117 +276,117 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/string/base/altcase]: https://github.com/stdlib-js/string-base-altcase/tree/umd
+[@stdlib/string/base/altcase]: https://github.com/stdlib-js/string-base-altcase
 
-[@stdlib/string/base/atob]: https://github.com/stdlib-js/string-base-atob/tree/umd
+[@stdlib/string/base/atob]: https://github.com/stdlib-js/string-base-atob
 
-[@stdlib/string/base/base64-to-uint8array]: https://github.com/stdlib-js/string-base-base64-to-uint8array/tree/umd
+[@stdlib/string/base/base64-to-uint8array]: https://github.com/stdlib-js/string-base-base64-to-uint8array
 
-[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase/tree/umd
+[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase
 
-[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize/tree/umd
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
 
-[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at/tree/umd
+[@stdlib/string/base/code-point-at]: https://github.com/stdlib-js/string-base-code-point-at
 
-[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase/tree/umd
+[@stdlib/string/base/constantcase]: https://github.com/stdlib-js/string-base-constantcase
 
-[@stdlib/string/base/distances]: https://github.com/stdlib-js/string-base-distances/tree/umd
+[@stdlib/string/base/distances]: https://github.com/stdlib-js/string-base-distances
 
-[@stdlib/string/base/dotcase]: https://github.com/stdlib-js/string-base-dotcase/tree/umd
+[@stdlib/string/base/dotcase]: https://github.com/stdlib-js/string-base-dotcase
 
-[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with/tree/umd
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
 
-[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point/tree/umd
+[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point
 
-[@stdlib/string/base/first-grapheme-cluster]: https://github.com/stdlib-js/string-base-first-grapheme-cluster/tree/umd
+[@stdlib/string/base/first-grapheme-cluster]: https://github.com/stdlib-js/string-base-first-grapheme-cluster
 
-[@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first/tree/umd
+[@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first
 
-[@stdlib/string/base/for-each-code-point-right]: https://github.com/stdlib-js/string-base-for-each-code-point-right/tree/umd
+[@stdlib/string/base/for-each-code-point-right]: https://github.com/stdlib-js/string-base-for-each-code-point-right
 
-[@stdlib/string/base/for-each-code-point]: https://github.com/stdlib-js/string-base-for-each-code-point/tree/umd
+[@stdlib/string/base/for-each-code-point]: https://github.com/stdlib-js/string-base-for-each-code-point
 
-[@stdlib/string/base/for-each-grapheme-cluster]: https://github.com/stdlib-js/string-base-for-each-grapheme-cluster/tree/umd
+[@stdlib/string/base/for-each-grapheme-cluster]: https://github.com/stdlib-js/string-base-for-each-grapheme-cluster
 
-[@stdlib/string/base/for-each-right]: https://github.com/stdlib-js/string-base-for-each-right/tree/umd
+[@stdlib/string/base/for-each-right]: https://github.com/stdlib-js/string-base-for-each-right
 
-[@stdlib/string/base/for-each]: https://github.com/stdlib-js/string-base-for-each/tree/umd
+[@stdlib/string/base/for-each]: https://github.com/stdlib-js/string-base-for-each
 
-[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate/tree/umd
+[@stdlib/string/base/format-interpolate]: https://github.com/stdlib-js/string-base-format-interpolate
 
-[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize/tree/umd
+[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
 
-[@stdlib/string/base/headercase]: https://github.com/stdlib-js/string-base-headercase/tree/umd
+[@stdlib/string/base/headercase]: https://github.com/stdlib-js/string-base-headercase
 
-[@stdlib/string/base/invcase]: https://github.com/stdlib-js/string-base-invcase/tree/umd
+[@stdlib/string/base/invcase]: https://github.com/stdlib-js/string-base-invcase
 
-[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase/tree/umd
+[@stdlib/string/base/kebabcase]: https://github.com/stdlib-js/string-base-kebabcase
 
-[@stdlib/string/base/last-code-point]: https://github.com/stdlib-js/string-base-last-code-point/tree/umd
+[@stdlib/string/base/last-code-point]: https://github.com/stdlib-js/string-base-last-code-point
 
-[@stdlib/string/base/last-grapheme-cluster]: https://github.com/stdlib-js/string-base-last-grapheme-cluster/tree/umd
+[@stdlib/string/base/last-grapheme-cluster]: https://github.com/stdlib-js/string-base-last-grapheme-cluster
 
-[@stdlib/string/base/last]: https://github.com/stdlib-js/string-base-last/tree/umd
+[@stdlib/string/base/last]: https://github.com/stdlib-js/string-base-last
 
-[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad/tree/umd
+[@stdlib/string/base/left-pad]: https://github.com/stdlib-js/string-base-left-pad
 
-[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim/tree/umd
+[@stdlib/string/base/left-trim]: https://github.com/stdlib-js/string-base-left-trim
 
-[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase/tree/umd
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
 
-[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase/tree/umd
+[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase
 
-[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode/tree/umd
+[@stdlib/string/base/percent-encode]: https://github.com/stdlib-js/string-base-percent-encode
 
-[@stdlib/string/base/remove-first-code-point]: https://github.com/stdlib-js/string-base-remove-first-code-point/tree/umd
+[@stdlib/string/base/remove-first-code-point]: https://github.com/stdlib-js/string-base-remove-first-code-point
 
-[@stdlib/string/base/remove-first-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-first-grapheme-cluster/tree/umd
+[@stdlib/string/base/remove-first-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-first-grapheme-cluster
 
-[@stdlib/string/base/remove-first]: https://github.com/stdlib-js/string-base-remove-first/tree/umd
+[@stdlib/string/base/remove-first]: https://github.com/stdlib-js/string-base-remove-first
 
-[@stdlib/string/base/remove-last-code-point]: https://github.com/stdlib-js/string-base-remove-last-code-point/tree/umd
+[@stdlib/string/base/remove-last-code-point]: https://github.com/stdlib-js/string-base-remove-last-code-point
 
-[@stdlib/string/base/remove-last-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-last-grapheme-cluster/tree/umd
+[@stdlib/string/base/remove-last-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-last-grapheme-cluster
 
-[@stdlib/string/base/remove-last]: https://github.com/stdlib-js/string-base-remove-last/tree/umd
+[@stdlib/string/base/remove-last]: https://github.com/stdlib-js/string-base-remove-last
 
-[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat/tree/umd
+[@stdlib/string/base/repeat]: https://github.com/stdlib-js/string-base-repeat
 
-[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last/tree/umd
+[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last
 
-[@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after/tree/umd
+[@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after
 
-[@stdlib/string/base/replace-before-last]: https://github.com/stdlib-js/string-base-replace-before-last/tree/umd
+[@stdlib/string/base/replace-before-last]: https://github.com/stdlib-js/string-base-replace-before-last
 
-[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before/tree/umd
+[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
 
-[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace/tree/umd
+[@stdlib/string/base/replace]: https://github.com/stdlib-js/string-base-replace
 
-[@stdlib/string/base/reverse-code-points]: https://github.com/stdlib-js/string-base-reverse-code-points/tree/umd
+[@stdlib/string/base/reverse-code-points]: https://github.com/stdlib-js/string-base-reverse-code-points
 
-[@stdlib/string/base/reverse-grapheme-clusters]: https://github.com/stdlib-js/string-base-reverse-grapheme-clusters/tree/umd
+[@stdlib/string/base/reverse-grapheme-clusters]: https://github.com/stdlib-js/string-base-reverse-grapheme-clusters
 
-[@stdlib/string/base/reverse]: https://github.com/stdlib-js/string-base-reverse/tree/umd
+[@stdlib/string/base/reverse]: https://github.com/stdlib-js/string-base-reverse
 
-[@stdlib/string/base/right-pad]: https://github.com/stdlib-js/string-base-right-pad/tree/umd
+[@stdlib/string/base/right-pad]: https://github.com/stdlib-js/string-base-right-pad
 
-[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim/tree/umd
+[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim
 
-[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase/tree/umd
+[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase
 
-[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase/tree/umd
+[@stdlib/string/base/startcase]: https://github.com/stdlib-js/string-base-startcase
 
-[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with/tree/umd
+[@stdlib/string/base/starts-with]: https://github.com/stdlib-js/string-base-starts-with
 
-[@stdlib/string/base/stickycase]: https://github.com/stdlib-js/string-base-stickycase/tree/umd
+[@stdlib/string/base/stickycase]: https://github.com/stdlib-js/string-base-stickycase
 
-[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim/tree/umd
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
 
-[@stdlib/string/base/truncate-middle]: https://github.com/stdlib-js/string-base-truncate-middle/tree/umd
+[@stdlib/string/base/truncate-middle]: https://github.com/stdlib-js/string-base-truncate-middle
 
-[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize/tree/umd
+[@stdlib/string/base/uncapitalize]: https://github.com/stdlib-js/string-base-uncapitalize
 
-[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase/tree/umd
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
 
 <!-- </toc-links> -->
 
