@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-09-01)
 
 <section class="features">
 
 ### Features
 
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
 -   [`c30bb89`](https://github.com/stdlib-js/stdlib/commit/c30bb89ea18eec5fcff098f16a30cc19315150e4) - add `string/base/slice-code-points` [(#5414)](https://github.com/stdlib-js/stdlib/pull/5414)
 -   [`5fd8af8`](https://github.com/stdlib-js/stdlib/commit/5fd8af8015ce57db86127c6deec0561273eb6a39) - add `string/base/slice-grapheme-clusters` [(#5457)](https://github.com/stdlib-js/stdlib/pull/5457)
 -   [`38b39db`](https://github.com/stdlib-js/stdlib/commit/38b39dba03763c4847268176872dcdccecc34f16) - add `string/base/slice` [(#5395)](https://github.com/stdlib-js/stdlib/pull/5395)
@@ -120,6 +121,12 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
+-   [`3d2f3c7`](https://github.com/stdlib-js/stdlib/commit/3d2f3c70a73bfb11428d490e91c04f4744d32d23) - **docs:** clean-up example code _(by Philipp Burckhardt)_
+-   [`2ba491f`](https://github.com/stdlib-js/stdlib/commit/2ba491fef8d133bf17c7cca63935585b862d2476) - **docs:** clean-up example code _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`b3c2d12`](https://github.com/stdlib-js/stdlib/commit/b3c2d120d3da72729235e034c7db01644ff70fa3) - **fix:** disable zero-padding for special values in `string/base/format-interpolate` [(#6957)](https://github.com/stdlib-js/stdlib/pull/6957) _(by Karan Anand)_
 -   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - **fix:** update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695) _(by Karan Anand)_
 -   [`c30bb89`](https://github.com/stdlib-js/stdlib/commit/c30bb89ea18eec5fcff098f16a30cc19315150e4) - **feat:** add `string/base/slice-code-points` [(#5414)](https://github.com/stdlib-js/stdlib/pull/5414) _(by Muhammad Haris)_
