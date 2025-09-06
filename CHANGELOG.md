@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-01)
+## Unreleased (2025-09-06)
 
 <section class="features">
 
@@ -121,6 +121,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`380f888`](https://github.com/stdlib-js/stdlib/commit/380f888de613b7b07e909ce7a1bc53f5a9801717) - **docs:** fix TypeScript declaration examples in string packages _(by Philipp Burckhardt)_
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
 -   [`3d2f3c7`](https://github.com/stdlib-js/stdlib/commit/3d2f3c70a73bfb11428d490e91c04f4744d32d23) - **docs:** clean-up example code _(by Philipp Burckhardt)_
 -   [`2ba491f`](https://github.com/stdlib-js/stdlib/commit/2ba491fef8d133bf17c7cca63935585b862d2476) - **docs:** clean-up example code _(by Philipp Burckhardt)_
