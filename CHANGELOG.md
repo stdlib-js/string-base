@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-06)
+## Unreleased (2025-09-23)
 
 <section class="features">
 
 ### Features
 
+-   [`930998f`](https://github.com/stdlib-js/stdlib/commit/930998fbd7e86475339b52d84e41b9d86b97f45f) - update `string/base` TypeScript declarations [(#8132)](https://github.com/stdlib-js/stdlib/pull/8132)
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
 -   [`c30bb89`](https://github.com/stdlib-js/stdlib/commit/c30bb89ea18eec5fcff098f16a30cc19315150e4) - add `string/base/slice-code-points` [(#5414)](https://github.com/stdlib-js/stdlib/pull/5414)
 -   [`5fd8af8`](https://github.com/stdlib-js/stdlib/commit/5fd8af8015ce57db86127c6deec0561273eb6a39) - add `string/base/slice-grapheme-clusters` [(#5457)](https://github.com/stdlib-js/stdlib/pull/5457)
@@ -121,6 +122,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`930998f`](https://github.com/stdlib-js/stdlib/commit/930998fbd7e86475339b52d84e41b9d86b97f45f) - **feat:** update `string/base` TypeScript declarations [(#8132)](https://github.com/stdlib-js/stdlib/pull/8132) _(by stdlib-bot)_
+-   [`b2dd31c`](https://github.com/stdlib-js/stdlib/commit/b2dd31c868ab2cc9d77f035b29de48e741fcc52b) - **chore:** fix main entry field in `package.json` _(by Philipp Burckhardt)_
 -   [`380f888`](https://github.com/stdlib-js/stdlib/commit/380f888de613b7b07e909ce7a1bc53f5a9801717) - **docs:** fix TypeScript declaration examples in string packages _(by Philipp Burckhardt)_
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
 -   [`3d2f3c7`](https://github.com/stdlib-js/stdlib/commit/3d2f3c70a73bfb11428d490e91c04f4744d32d23) - **docs:** clean-up example code _(by Philipp Burckhardt)_
