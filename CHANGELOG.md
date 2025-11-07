@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-23)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -122,6 +122,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`be7e3d0`](https://github.com/stdlib-js/stdlib/commit/be7e3d0ba8775b49db37662e0f509c374025c0c3) - **docs:** resolve lint errors _(by Athan Reines)_
 -   [`930998f`](https://github.com/stdlib-js/stdlib/commit/930998fbd7e86475339b52d84e41b9d86b97f45f) - **feat:** update `string/base` TypeScript declarations [(#8132)](https://github.com/stdlib-js/stdlib/pull/8132) _(by stdlib-bot)_
 -   [`b2dd31c`](https://github.com/stdlib-js/stdlib/commit/b2dd31c868ab2cc9d77f035b29de48e741fcc52b) - **chore:** fix main entry field in `package.json` _(by Philipp Burckhardt)_
 -   [`380f888`](https://github.com/stdlib-js/stdlib/commit/380f888de613b7b07e909ce7a1bc53f5a9801717) - **docs:** fix TypeScript declaration examples in string packages _(by Philipp Burckhardt)_
