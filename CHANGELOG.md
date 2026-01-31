@@ -2,14 +2,15 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-11-07)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
 ### Features
 
+-   [`e9d4935`](https://github.com/stdlib-js/stdlib/commit/e9d49359c29e317fcdd6eaaf170b300fd3a1d5ef) - add `string/base/concat` [(#8521)](https://github.com/stdlib-js/stdlib/pull/8521)
 -   [`930998f`](https://github.com/stdlib-js/stdlib/commit/930998fbd7e86475339b52d84e41b9d86b97f45f) - update `string/base` TypeScript declarations [(#8132)](https://github.com/stdlib-js/stdlib/pull/8132)
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
 -   [`c30bb89`](https://github.com/stdlib-js/stdlib/commit/c30bb89ea18eec5fcff098f16a30cc19315150e4) - add `string/base/slice-code-points` [(#5414)](https://github.com/stdlib-js/stdlib/pull/5414)
@@ -108,9 +109,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#812](https://github.com/stdlib-js/stdlib/issues/812), [#813](https://github.com/stdlib-js/stdlib/issues/813), [#814](https://github.com/stdlib-js/stdlib/issues/814), [#1729](https://github.com/stdlib-js/stdlib/issues/1729)
+[#812](https://github.com/stdlib-js/stdlib/issues/812), [#813](https://github.com/stdlib-js/stdlib/issues/813), [#814](https://github.com/stdlib-js/stdlib/issues/814), [#1729](https://github.com/stdlib-js/stdlib/issues/1729), [#8520](https://github.com/stdlib-js/stdlib/issues/8520)
 
 </section>
 
@@ -122,6 +123,10 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`50f2408`](https://github.com/stdlib-js/stdlib/commit/50f240842114b46d91ccc84ca97f93f6c21ae5ac) - **test:** remove duplicate test cases in `string/base` packages _(by Philipp Burckhardt)_
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
+-   [`6ce0275`](https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482) - **docs:** remove incorrect hyphens from JSDoc `returns` annotations _(by Philipp Burckhardt)_
+-   [`e9d4935`](https://github.com/stdlib-js/stdlib/commit/e9d49359c29e317fcdd6eaaf170b300fd3a1d5ef) - **feat:** add `string/base/concat` [(#8521)](https://github.com/stdlib-js/stdlib/pull/8521) _(by Sagar Ratna Chaudhary, Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`be7e3d0`](https://github.com/stdlib-js/stdlib/commit/be7e3d0ba8775b49db37662e0f509c374025c0c3) - **docs:** resolve lint errors _(by Athan Reines)_
 -   [`930998f`](https://github.com/stdlib-js/stdlib/commit/930998fbd7e86475339b52d84e41b9d86b97f45f) - **feat:** update `string/base` TypeScript declarations [(#8132)](https://github.com/stdlib-js/stdlib/pull/8132) _(by stdlib-bot)_
@@ -229,7 +234,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Sapra
 -   Ahmed Khaled
@@ -240,6 +245,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Pranav Goswami
+-   Sagar Ratna Chaudhary
 
 </section>
 
