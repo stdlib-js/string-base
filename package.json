@@ -126,7 +126,7 @@
     "@stdlib/regexp-whitespace": "^0.2.2",
     "@stdlib/string-base-distances-hamming": "^0.2.2",
     "@stdlib/string-base-distances-levenshtein": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/string-from-code-point": "^0.2.2",
     "@stdlib/string-next-grapheme-cluster-break": "^0.2.2",
     "@stdlib/string-num-code-points": "^0.1.0",
