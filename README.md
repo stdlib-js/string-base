@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base/tags). For example,
+
+```javascript
 import string from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { altcase, atob, base64ToUint8Array, camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachCodePointRight, forEachGraphemeCluster, forEachRight, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, last, lastCodePoint, lastGraphemeCluster, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, removeLast, removeLastCodePoint, removeLastGraphemeCluster, repeat, replace, replaceAfter, replaceAfterLast, replaceBefore, replaceBeforeLast, reverse, reverseCodePoints, reverseGraphemeClusters, rpad, rtrim, slice, sliceCodePoints, sliceGraphemeClusters, snakecase, startcase, startsWith, stickycase, trim, truncateMiddle, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.3.1-deno/mod.js';
+import { altcase, atob, base64ToUint8Array, camelcase, capitalize, codePointAt, constantcase, distances, dotcase, endsWith, first, firstCodePoint, firstGraphemeCluster, forEach, forEachCodePoint, forEachCodePointRight, forEachGraphemeCluster, forEachRight, formatInterpolate, formatTokenize, headercase, invcase, kebabcase, last, lastCodePoint, lastGraphemeCluster, lowercase, lpad, ltrim, pascalcase, percentEncode, removeFirst, removeFirstCodePoint, removeFirstGraphemeCluster, removeLast, removeLastCodePoint, removeLastGraphemeCluster, repeat, replace, replaceAfter, replaceAfterLast, replaceBefore, replaceBeforeLast, reverse, reverseCodePoints, reverseGraphemeClusters, rpad, rtrim, slice, sliceCodePoints, sliceGraphemeClusters, snakecase, startcase, startsWith, stickycase, trim, truncateMiddle, uncapitalize, uppercase } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
 ```
 
 #### string
@@ -153,7 +158,7 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error", @cspell/spellchecker: "off" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@v0.3.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base@deno/mod.js';
 
 // Generate a Pascal case string...
 var str = ns.pascalcase( 'beep boop' );
