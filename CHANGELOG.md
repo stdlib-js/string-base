@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-31)
+## Unreleased (2026-06-06)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`8d35b2b`](https://github.com/stdlib-js/stdlib/commit/8d35b2b4214dcf3ec69fd86b44ae2d6fc4cd0645) - **docs:** update `string/base` TypeScript declarations [(#12619)](https://github.com/stdlib-js/stdlib/pull/12619) _(by stdlib-bot)_
+-   [`f7a08b6`](https://github.com/stdlib-js/stdlib/commit/f7a08b6ce746cb67f028eabec46455e0642e3758) - **docs:** align `package.json` descriptions with imperative-mood convention [(#12431)](https://github.com/stdlib-js/stdlib/pull/12431) _(by Philipp Burckhardt)_
 -   [`fe7c274`](https://github.com/stdlib-js/stdlib/commit/fe7c2746799f98c42a15f5ab2240676bb9b5987d) - **docs:** fix errors and inconsistencies in `@stdlib/string` TypeScript declarations [(#12390)](https:-/github.com/stdlib-js/stdlib/pull/12390) _(by Philipp Burckhardt, Athan Reines)_
 -   [`43d1d20`](https://github.com/stdlib-js/stdlib/commit/43d1d20ba3ad56a2d8dc0f9a7dafb279240a976e) - **docs:** align keywords in `string/base` with namespace majority patterns [(#11841)](https://github.com/stdlib-js/stdlib/pull/11841) _(by Philipp Burckhardt)_
 -   [`aa8d436`](https://github.com/stdlib-js/stdlib/commit/aa8d436e7f5bcab413e101bc9954e9e15d162d5d) - **bench:** refactor to use string interpolation in `@stdlib/string` [(#11456)](https:-/github.com/stdlib-js/stdlib/pull/11456) _(by Uday Kakade, Karan Anand)_
