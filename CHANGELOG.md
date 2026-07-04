@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-28)
+## Unreleased (2026-07-04)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`c33404a`](https://github.com/stdlib-js/stdlib/commit/c33404ab42f5cd06257f3f02843fa23393884e80) - **style:** remove extra space and address lint failures [(#13263)](https://github.com/stdlib-js/stdlib/pull/13263) _(by Philipp Burckhardt)_
+-   [`a8be8d1`](https://github.com/stdlib-js/stdlib/commit/a8be8d1588388d3f20084bf4431dff14f4c7c7ed) - **docs:** update descriptions [(#13257)](https://github.com/stdlib-js/stdlib/pull/13257) _(by Philipp Burckhardt)_
 -   [`f9377d1`](https://github.com/stdlib-js/stdlib/commit/f9377d118f83e21ab08f81f142803a8b640ca6eb) - **docs:** update examples [(#13150)](https://github.com/stdlib-js/stdlib/pull/13150) _(by Philipp Burckhardt)_
 -   [`8d35b2b`](https://github.com/stdlib-js/stdlib/commit/8d35b2b4214dcf3ec69fd86b44ae2d6fc4cd0645) - **docs:** update `string/base` TypeScript declarations [(#12619)](https://github.com/stdlib-js/stdlib/pull/12619) _(by stdlib-bot)_
 -   [`f7a08b6`](https://github.com/stdlib-js/stdlib/commit/f7a08b6ce746cb67f028eabec46455e0642e3758) - **docs:** align `package.json` descriptions with imperative-mood convention [(#12431)](https://github.com/stdlib-js/stdlib/pull/12431) _(by Philipp Burckhardt)_
